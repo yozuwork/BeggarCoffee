@@ -1,0 +1,1974 @@
+{
+ "areas": [
+  "忠孝復興",
+  "忠孝敦化",
+  "市政府",
+  "台北車站",
+  "中山區",
+  "雙連",
+  "忠孝新生",
+  "北門"
+ ],
+ "cafes": [
+  {
+   "id": "doi-chaang-coffee",
+   "area": "忠孝復興",
+   "name": "豆一昌咖啡 Doi Chaang Coffee",
+   "addr": "大安區 2樓之2, No. 70號, Section 1, Fuxing S Rd",
+   "hours": "10:00–18:00",
+   "rating": 4.1,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/doi-chaang-coffee/seating1.jpg",
+   "map": "https://goo.gl/maps/tkQerCjMXuXeQADFA",
+   "dist": 280,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "homeys-cafe",
+   "area": "忠孝復興",
+   "name": "Homey's Cafe",
+   "addr": "大安區 Lane, Section 1, Dunhua South Road, 36號騷豆花樓上2樓",
+   "hours": "12:00–22:00",
+   "rating": 4,
+   "tags": [
+    "插座",
+    "WiFi",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/homeys-cafe/seating.jpg",
+   "map": "https://goo.gl/maps/bRPrSSe7o3Pu2c9W9",
+   "dist": 310,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "slow-pace-cafe",
+   "area": "忠孝復興",
+   "name": "Slow Pace Cafe 慢步調 咖啡館",
+   "addr": "大安區忠孝東路三段251巷1弄1號",
+   "hours": "12:00–20:00",
+   "rating": 3.9,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/slow-pace-cafe/seating1.jpg",
+   "map": "https://g.page/slow-pace-cafe?share",
+   "dist": 210,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "dreamers-coffee-roasters-breeze-fuxing",
+   "area": "忠孝復興",
+   "name": "Dreamers - Breeze Fuxing (微風復興店)",
+   "addr": "松山區復興南路一段45號",
+   "hours": "07:00–22:00",
+   "rating": 3.7,
+   "tags": [
+    "插座",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/m9VyVBnK1fGbcCxy5",
+   "dist": 450,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "uranium-cafe",
+   "area": "忠孝復興",
+   "name": "Uranium Cafe 鈾咖啡餐酒館",
+   "addr": "大安區復興南路一段253巷32號1樓",
+   "hours": "11:30–23:00",
+   "rating": 3.4,
+   "tags": [
+    "WiFi",
+    "餐點",
+    "戶外座"
+   ],
+   "img": "",
+   "map": "https://g.page/uraniumcafe?share",
+   "dist": 560,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "i-am-kissa-azuki",
+   "area": "忠孝復興",
+   "name": "喫茶小豆KISSA AZUKI",
+   "addr": "松山區南京東路三段256巷47號",
+   "hours": "12:30–18:30",
+   "rating": 3.3,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/gMtR2R85jKM4RkGm9",
+   "dist": 890,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "dreamers-coffee-roasters",
+   "area": "忠孝復興",
+   "name": "Dreamers - Fuxing (復興店)",
+   "addr": "大安區 No. 7號, Lane, Section 1, Fuxing South Road",
+   "hours": "07:00–22:00",
+   "rating": 3.2,
+   "tags": [
+    "插座",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://g.page/DreamersCoffeeRoastersFuxing?share",
+   "dist": 170,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "come-true-coffee-sogo",
+   "area": "忠孝復興",
+   "name": "Come True Coffee (SOGO)",
+   "addr": "大安區 Section 3, Zhongxiao E Rd, 300號9F",
+   "hours": "11:00–21:30",
+   "rating": 3.2,
+   "tags": [
+    "不限時",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/ioHBp6TJej269hdc9",
+   "dist": 80,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "awake-til-sleep",
+   "area": "忠孝復興",
+   "name": "Awake til sleep",
+   "addr": "大安區仁愛路三段143巷38號第1責任區",
+   "hours": "08:00–00:00",
+   "rating": 3.1,
+   "tags": [
+    "不限時",
+    "餐點",
+    "戶外座"
+   ],
+   "img": "https://cafeandcowork.com/taipei/awake-til-sleep/seating1.jpg",
+   "map": "https://goo.gl/maps/Aqq4aRhjSd5cbjX77",
+   "dist": 170,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "koku-cafe",
+   "area": "忠孝復興",
+   "name": "KoKu café",
+   "addr": "大安區大安路一段175巷6號",
+   "hours": "11:00–19:00",
+   "rating": 2.8,
+   "tags": [
+    "WiFi",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/koku-cafe/seating1.jpg",
+   "map": "https://goo.gl/maps/xLL7h8nFQSkzA5VbA",
+   "dist": 640,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "annyoung-cafe",
+   "area": "忠孝敦化",
+   "name": "annyoung cafe",
+   "addr": "大安區延吉街70巷5弄2號1樓",
+   "hours": "12:00–23:00",
+   "rating": 4.3,
+   "tags": [
+    "插座",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://g.page/annyoungcafe?share",
+   "dist": 300,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "truffles-living",
+   "area": "忠孝敦化",
+   "name": "Truffles Living (舒服生活)",
+   "addr": "大安區 No. 66號, Wenchang Street",
+   "hours": "12:00–20:00",
+   "rating": 4.3,
+   "tags": [
+    "WiFi",
+    "安靜",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/truffles-living/outside.jpg",
+   "map": "https://goo.gl/maps/hmGsUgqQBNQLF6qN9",
+   "dist": 970,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "congrats-cafe",
+   "area": "忠孝敦化",
+   "name": "Congrats Café",
+   "addr": "大安區 No. 49號, Wenchang Street",
+   "hours": "08:00–22:00",
+   "rating": 4.1,
+   "tags": [
+    "插座",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/congrats-cafe/seating1.jpg",
+   "map": "https://goo.gl/maps/jd3Hh63LwzWMxuzS7",
+   "dist": 950,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "dreamers-coffee-roasters-guangfu",
+   "area": "忠孝敦化",
+   "name": "Dreamers - Guangfu (光復店)",
+   "addr": "大安區 No. 11號, Lane, Guangfu South Road",
+   "hours": "07:00–22:00",
+   "rating": 4,
+   "tags": [
+    "插座",
+    "WiFi",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/dreamers-coffee-roasters-guangfu/outside.jpg",
+   "map": "https://g.page/DreamersCoffeeRoastersGuangfu?share",
+   "dist": 610,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "moi-cafe",
+   "area": "忠孝敦化",
+   "name": "Moi Cafe",
+   "addr": "大安區仁愛路四段408巷13號",
+   "hours": "08:00–18:30",
+   "rating": 4,
+   "tags": [
+    "插座",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/moi-cafe/seating1.jpg",
+   "map": "https://goo.gl/maps/ZpCEdxeghndLAZQu7",
+   "dist": 770,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "miracle-coffee",
+   "area": "忠孝敦化",
+   "name": "Miracle Coffee",
+   "addr": "大安區 No. 8號, Lane, Section 1, Dunhua South Road",
+   "hours": "11:00–20:00",
+   "rating": 3.9,
+   "tags": [
+    "安靜",
+    "餐點",
+    "戶外座"
+   ],
+   "img": "https://cafeandcowork.com/taipei/miracle-coffee/seating1.jpg",
+   "map": "https://goo.gl/maps/sGFDmFpWeTJPbiJi8",
+   "dist": 230,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "greengreengreen",
+   "area": "忠孝敦化",
+   "name": "greengreengreen 綠咖生活概念店",
+   "addr": "大安區延吉街244號2樓",
+   "hours": "11:00–18:00",
+   "rating": 3.7,
+   "tags": [
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/greengreengreen/seating1.jpg",
+   "map": "https://g.page/liukagreengreengreen?share",
+   "dist": 790,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "arts-cafe",
+   "area": "忠孝敦化",
+   "name": "Art's Cafe",
+   "addr": "松山區八德路三段192號",
+   "hours": "07:30–19:00",
+   "rating": 3.7,
+   "tags": [
+    "不限時"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/GXdsZqd6zZXY2UpE9",
+   "dist": 900,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "oasis-coffee-roasters",
+   "area": "忠孝敦化",
+   "name": "Oasis Coffee Roasters",
+   "addr": "大安區信義路四段199巷7-3號",
+   "hours": "09:00–19:00",
+   "rating": 3.6,
+   "tags": [
+    "不限時",
+    "WiFi",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/oasis-coffee-roasters/seating1.jpg",
+   "map": "https://goo.gl/maps/S4oakftSdAdQpGP5A",
+   "dist": 820,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "toast-chat",
+   "area": "忠孝敦化",
+   "name": "Toast Chat",
+   "addr": "大安區光復南路290巷58號",
+   "hours": "12:00–22:00",
+   "rating": 3.6,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/toast-chat/seating1.jpg",
+   "map": "https://g.page/ToastChat?share",
+   "dist": 520,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "true-from",
+   "area": "忠孝敦化",
+   "name": "true from",
+   "addr": "松山區八德路三段158巷5號",
+   "hours": "10:00–20:00",
+   "rating": 3.5,
+   "tags": [
+    "WiFi",
+    "僅收現金"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/5dB5ro9oAiEvwyEe8",
+   "dist": 800,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "lost-and-found-it-cafe-lounge",
+   "area": "忠孝敦化",
+   "name": "Lost and Found it Cafe/Lounge",
+   "addr": "大安區 No. 6號, Lane, Section 1, Dunhua South Road",
+   "hours": "12:00–19:00",
+   "rating": 3.5,
+   "tags": [
+    "WiFi",
+    "僅收現金"
+   ],
+   "img": "https://cafeandcowork.com/taipei/lost-and-found-it-cafe-lounge/sign.jpg",
+   "map": "https://g.page/lostandfoundit1?share",
+   "dist": 280,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "ma-cafe",
+   "area": "忠孝敦化",
+   "name": "MA Cafe",
+   "addr": "大安區 No. 1號, Lane 11, Section 2, Dunhua South Road",
+   "hours": "11:00–19:00",
+   "rating": 3.4,
+   "tags": [
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/ma-cafe/seating1.jpg",
+   "map": "https://goo.gl/maps/x3LEU7curB6wQXk6A",
+   "dist": 980,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "coffee-lovers-planet",
+   "area": "忠孝敦化",
+   "name": "Coffee Lover's Planet",
+   "addr": "大安區 敦化南路1段246號號 B1",
+   "hours": "09:00–21:30",
+   "rating": 3.3,
+   "tags": [
+    "不限時",
+    "戶外座"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/mAK8TfijJTnyjR566",
+   "dist": 270,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "looproom",
+   "area": "忠孝敦化",
+   "name": "looproom",
+   "addr": "大安區四維路14巷11號",
+   "hours": "09:00–17:00",
+   "rating": 3.3,
+   "tags": [
+    "不限時",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/DzdVUCrCmgsmRzcy6",
+   "dist": 610,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "ueshima-coffee-zhongxiao-dunhua",
+   "area": "忠孝敦化",
+   "name": "Ueshima Coffee Zhongxiao Dunhua",
+   "addr": "大安區 敦化南路1段199號",
+   "hours": "07:30–22:00",
+   "rating": 2.9,
+   "tags": [],
+   "img": "",
+   "map": "https://goo.gl/maps/QymxegDFKMMmguEs5",
+   "dist": 190,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "cafe-costumice",
+   "area": "忠孝敦化",
+   "name": "Cafe Costumice",
+   "addr": "大安區 Alley 71, Lane, Section 4, Zhongxiao East Road, 6號1樓",
+   "hours": "14:00–22:00",
+   "rating": 2.4,
+   "tags": [
+    "插座",
+    "戶外座"
+   ],
+   "img": "https://cafeandcowork.com/taipei/cafe-costumice/outdoor.jpg",
+   "map": "https://goo.gl/maps/78PCFLxoiqSvNazU7",
+   "dist": 310,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "books-dream-plaza",
+   "area": "市政府",
+   "name": "博客來 × 星巴克典藏 Dream Plaza",
+   "addr": "信義區松高路11號6樓",
+   "hours": "24 小時",
+   "rating": null,
+   "tags": [
+    "書店",
+    "24小時",
+    "不限時"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=博客來 Dream Plaza 台北市信義區松高路11號",
+   "dist": 200,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "cyancafe",
+   "area": "市政府",
+   "name": "Cyan Cafe 小青苑",
+   "addr": "信義區基隆路一段147巷29號",
+   "hours": "13:00–19:00",
+   "rating": 4.1,
+   "tags": [
+    "WiFi",
+    "安靜",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/cyancafe/seating1.jpg",
+   "map": "https://g.page/cyancafetw?share",
+   "dist": 240,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "the-lounge-eslite-hotel",
+   "area": "市政府",
+   "name": "The Lounge @ Eslite Hotel",
+   "addr": "信義區菸廠路98號",
+   "hours": "11:00–20:00",
+   "rating": 4.1,
+   "tags": [
+    "不限時",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/the-lounge-eslite-hotel/seating.jpg",
+   "map": "https://goo.gl/maps/zCZxere1HZ9jGYn69",
+   "dist": 500,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "treellage-life-cafe",
+   "area": "市政府",
+   "name": "Treellage Life Cafe",
+   "addr": "信義區永吉路30巷158弄13號",
+   "hours": "09:00–19:00",
+   "rating": 4,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/treellage-life-cafe/seating1.jpg",
+   "map": "https://goo.gl/maps/gMP5rhDeRF158X4y6",
+   "dist": 340,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "justco",
+   "area": "市政府",
+   "name": "JustCo",
+   "addr": "信義區 號14-20樓, No., Section 1, Keelung Rd",
+   "hours": "08:30–18:00",
+   "rating": 3.7,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/justco/interior.jpg",
+   "map": "https://goo.gl/maps/ow8fjN5YtTsTSHv29",
+   "dist": 230,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "curista-coffee",
+   "area": "市政府",
+   "name": "CURISTA COFFEE 奎士咖啡",
+   "addr": "信義區忠孝東路四段563號一樓",
+   "hours": "07:00–22:00",
+   "rating": 3.7,
+   "tags": [
+    "插座",
+    "安靜",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/curista-coffee/interior.jpg",
+   "map": "https://goo.gl/maps/Kwhmi2yCrAmS89ED6",
+   "dist": 130,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "arthere-cafe-上樓看看",
+   "area": "市政府",
+   "name": "Arthere Cafe (上樓看看)",
+   "addr": "信義區忠孝東路五段165巷3弄6號",
+   "hours": "11:30–22:30",
+   "rating": 3.7,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/arthere-cafe-%E4%B8%8A%E6%A8%93%E7%9C%8B%E7%9C%8B/entrance.jpg",
+   "map": "https://goo.gl/maps/SjLL4cgdwDKk8Aat9",
+   "dist": 380,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "stone-workplace",
+   "area": "市政府",
+   "name": "STONE Workplace",
+   "addr": "信義區 Section 1, Keelung Rd, 141號2樓",
+   "hours": "09:00–18:00",
+   "rating": 3.6,
+   "tags": [
+    "插座",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/stone-workplace/seating1.jpg",
+   "map": "https://g.page/stoneworkplace?share",
+   "dist": 240,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "starbucks-breeze-nanshan",
+   "area": "市政府",
+   "name": "STARBUCKS Breeze Nanshan",
+   "addr": "信義區 Songren Road, 100號2F",
+   "hours": "07:30–20:00",
+   "rating": 3.2,
+   "tags": [
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/uC4DLJqzTec7y7NL6",
+   "dist": 800,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "fika-fika-cafe-a13",
+   "area": "市政府",
+   "name": "Fika Fika Cafe A13",
+   "addr": "信義區 58號B3, Songren Road",
+   "hours": "11:00–21:30",
+   "rating": 2.8,
+   "tags": [
+    "不限時",
+    "餐點",
+    "戶外座"
+   ],
+   "img": "https://cafeandcowork.com/taipei/fika-fika-cafe-a13/interior.jpg",
+   "map": "https://goo.gl/maps/iDBw84rZZhHfnLej6",
+   "dist": 520,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "starbucks-wtc",
+   "area": "市政府",
+   "name": "STARBUCKS Taipei World Trade Center",
+   "addr": "信義區信義路五段5號",
+   "hours": "07:30–19:00",
+   "rating": 2.8,
+   "tags": [
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/starbucks-wtc/seating1.jpg",
+   "map": "https://goo.gl/maps/zTBY4i7uCPh1Soow9",
+   "dist": 770,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "starbucks-city-hall",
+   "area": "市政府",
+   "name": "Starbucks City Hall",
+   "addr": "信義區 Section 5, Zhongxiao East Road, 8號2樓",
+   "hours": "07:00–21:30",
+   "rating": 2.7,
+   "tags": [
+    "不限時",
+    "戶外座"
+   ],
+   "img": "https://cafeandcowork.com/taipei/starbucks-city-hall/seating1.jpg",
+   "map": "https://goo.gl/maps/31aMTTWANbhh87Hz8",
+   "dist": 30,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "cafe-banana-coffee-n-crossiant",
+   "area": "市政府",
+   "name": "Cafe Banana Coffee n Croissant 芭娜娜咖啡可頌",
+   "addr": "信義區永吉路30巷157弄7號",
+   "hours": "09:00–16:30",
+   "rating": 2.6,
+   "tags": [
+    "不限時"
+   ],
+   "img": "https://cafeandcowork.com/taipei/cafe-banana-coffee-n-crossiant/seating1.jpg",
+   "map": "https://goo.gl/maps/P4VikXd2rE9VTspHA",
+   "dist": 420,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "starbucks-bellavita",
+   "area": "市政府",
+   "name": "Starbucks Bellavita",
+   "addr": "信義區 B1, No. 28號, Songren Road",
+   "hours": "11:00–21:30",
+   "rating": 1.7,
+   "tags": [],
+   "img": "",
+   "map": "https://goo.gl/maps/DwujSHseLpGLDfj39",
+   "dist": 290,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "woodxwhite",
+   "area": "台北車站",
+   "name": "木白甜點咖啡店 (Woodxwhite)",
+   "addr": "中正區林森北路9巷23-2號",
+   "hours": "12:00–21:00",
+   "rating": 3.7,
+   "tags": [
+    "不限時",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/woodxwhite/seating1.jpg",
+   "map": "https://goo.gl/maps/ZgxyRG5ojvVGsenV9",
+   "dist": 850,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "notch-cafe-blending",
+   "area": "台北車站",
+   "name": "NOTCH Cafe Blending",
+   "addr": "中正區 No. 35號, Section 1, Chongqing South Road",
+   "hours": "07:30–20:00",
+   "rating": 3.7,
+   "tags": [
+    "插座",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/notch-cafe-blending/outside.jpg",
+   "map": "https://goo.gl/maps/v9BzhHtwRGjEPHq47",
+   "dist": 460,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "nearby-cafe",
+   "area": "台北車站",
+   "name": "Nearby Cafe 附近咖啡",
+   "addr": "大同區長安西路78巷3弄4-1號",
+   "hours": "10:00–00:00",
+   "rating": 3.6,
+   "tags": [
+    "不限時",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/pYLJ8dG5wsBVeyaK6",
+   "dist": 320,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "oromo-cafe-taipei-station",
+   "area": "台北車站",
+   "name": "OROMO CAFE (Taipei Station)",
+   "addr": "中正區 No. 26, Nanyang Street",
+   "hours": "10:15–21:00",
+   "rating": 3.2,
+   "tags": [
+    "插座",
+    "餐點",
+    "僅收現金"
+   ],
+   "img": "https://cafeandcowork.com/taipei/oromo-cafe-taipei-station/entrance.jpg",
+   "map": "https://goo.gl/maps/SLURNGrfBpHqCHZo7",
+   "dist": 390,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "library134",
+   "area": "中山區",
+   "name": "CE' & LIB-RARY 遼寧店",
+   "addr": "中山區遼寧街134號",
+   "hours": "08:00–20:00",
+   "rating": 4.4,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/library134/inside1.jpg",
+   "map": "https://g.page/LIBRARY134?share",
+   "dist": null,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "maven-coworking-cafe",
+   "area": "中山區",
+   "name": "Maven Coworking Cafe",
+   "addr": "中山區 No.3, Lane, Beian Road",
+   "hours": "11:00–17:30",
+   "rating": 4.2,
+   "tags": [
+    "插座",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/maven-coworking-cafe/outside.jpg",
+   "map": "https://goo.gl/maps/KXYQjwW7fCE4P2a28",
+   "dist": null,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "middle-name-cafe",
+   "area": "中山區",
+   "name": "MIDDLE NAME coffee & space",
+   "addr": "中山區 No. 10號, Lane 18, Nanjing West Road",
+   "hours": "09:00–19:00",
+   "rating": 4.2,
+   "tags": [
+    "插座",
+    "WiFi",
+    "戶外座"
+   ],
+   "img": "https://cafeandcowork.com/taipei/middle-name-cafe/interior4.jpg",
+   "map": "https://goo.gl/maps/fPijhJjyA1uYseWr8",
+   "dist": 120,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "triangle-garden-cafe",
+   "area": "中山區",
+   "name": "Triangle Garden Cafe",
+   "addr": "大同區 Taiyuan Road, 131號2樓",
+   "hours": "10:00–18:00",
+   "rating": 3.6,
+   "tags": [
+    "不限時",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/triangle-garden-cafe/seating1.jpg",
+   "map": "https://goo.gl/maps/LbntcCLYHJRKWcHf9",
+   "dist": 430,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "nichi-nichi",
+   "area": "中山區",
+   "name": "Nichi Nichi 日子咖啡",
+   "addr": "大同區赤峰街17巷8號",
+   "hours": "13:00–19:00",
+   "rating": 3.6,
+   "tags": [
+    "WiFi",
+    "安靜",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/nichi-nichi/seating1.jpg",
+   "map": "https://goo.gl/maps/RKcfpB3eP73u8Vqr9",
+   "dist": 130,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "libo-cafe",
+   "area": "中山區",
+   "name": "Libo Cafe",
+   "addr": "中山區中山北路二段42巷12號",
+   "hours": "07:30–19:00",
+   "rating": 3.4,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/libo-cafe/seating1.jpg",
+   "map": "https://goo.gl/maps/xAM3ZqZxGtU2yBHS7",
+   "dist": 270,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "coquology",
+   "area": "中山區",
+   "name": "COQUOLOGY 料理生活",
+   "addr": "中山區 Lane 39, Section 2, Zhongshan N Rd, 3號B2F",
+   "hours": "10:00–21:00",
+   "rating": 3.2,
+   "tags": [
+    "不限時",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/YSmNjz6iYkajTcnDA",
+   "dist": 420,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "lapresmidi-zhongshan",
+   "area": "中山區",
+   "name": "L'après Midi Cafe",
+   "addr": "中山區中山北路二段16巷10號",
+   "hours": "11:00–18:00",
+   "rating": 3.1,
+   "tags": [
+    "不限時",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/lapresmidi-zhongshan/seating1.jpg",
+   "map": "https://goo.gl/maps/q6mkAi9mVwFPZASr6",
+   "dist": 140,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "hoto-cafe",
+   "area": "中山區",
+   "name": "Hoto Cafe",
+   "addr": "中山區 No. 6, Alley 7, Lane 13, Section 1, Nanjing East Road",
+   "hours": "12:00–18:30",
+   "rating": 2.9,
+   "tags": [
+    "餐點",
+    "戶外座",
+    "僅收現金"
+   ],
+   "img": "https://cafeandcowork.com/taipei/hoto-cafe/seating3.jpg",
+   "map": "https://goo.gl/maps/zVUhm6mo2muBZvEz8",
+   "dist": 410,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "starbucks-miramar",
+   "area": "中山區",
+   "name": "Starbucks Miramar",
+   "addr": "中山區 Jingye 3rd Road, 20號1樓",
+   "hours": "08:30–23:00",
+   "rating": 2.7,
+   "tags": [
+    "戶外座"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/fGTc3G9eG1JH6nPP8",
+   "dist": null,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "waha-cafe",
+   "area": "雙連",
+   "name": "月霞 Waha Cafe",
+   "addr": "大同區赤峰街47巷3號1樓",
+   "hours": "11:00–19:00",
+   "rating": 3.7,
+   "tags": [
+    "WiFi",
+    "安靜",
+    "僅收現金"
+   ],
+   "img": "https://cafeandcowork.com/taipei/waha-cafe/seating.jpg",
+   "map": "https://g.page/WahaCafe?share",
+   "dist": 280,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "illumination-books",
+   "area": "雙連",
+   "name": "Illumination Books 浮光書店",
+   "addr": "大同區赤峰街47巷18號2樓",
+   "hours": "12:00–22:00",
+   "rating": 3.6,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/illumination-books/seating1.jpg",
+   "map": "https://goo.gl/maps/Fns9HBcTDv3c2kaS9",
+   "dist": 280,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "93-lane-for-people",
+   "area": "忠孝新生",
+   "name": "93 Lane for People",
+   "addr": "中山區 No. 2, Lane 93, Songjiang Road",
+   "hours": "08:00–20:00",
+   "rating": 3.9,
+   "tags": [
+    "插座",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/93-lane-for-people/outside.jpg",
+   "map": "https://goo.gl/maps/qKRH3jXj4JQReLCu6",
+   "dist": 920,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "fika-fika-cafe",
+   "area": "忠孝新生",
+   "name": "Fika Fika Cafe",
+   "addr": "中山區 No. 33號, Yitong Street",
+   "hours": "08:00–20:00",
+   "rating": 3.6,
+   "tags": [
+    "WiFi",
+    "餐點",
+    "戶外座"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/EJFwTb9JKTB28PsK7",
+   "dist": 940,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "star-rocket-cafe",
+   "area": "忠孝新生",
+   "name": "Star Rocket Café",
+   "addr": "中正區 Section 3, Civic Blvd, 2號11樓",
+   "hours": "11:00–18:00",
+   "rating": 3.5,
+   "tags": [
+    "插座",
+    "不限時",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/star-rocket-cafe/seating1.jpg",
+   "map": "https://goo.gl/maps/bfjdv9bgiMShdKVeA",
+   "dist": 400,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "gingin-coffee",
+   "area": "忠孝新生",
+   "name": "GinGin Coffee Company",
+   "addr": "中正區 Lane 27, Linyi Street, 9號1樓",
+   "hours": "09:00–20:30",
+   "rating": 2.4,
+   "tags": [],
+   "img": "https://cafeandcowork.com/taipei/gingin-coffee/outside.jpg",
+   "map": "https://goo.gl/maps/gcL1TPMfXxbDCArx8",
+   "dist": 220,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "now-coffee",
+   "area": "北門",
+   "name": "NOW coffee 鬧咖啡",
+   "addr": "中正區延平南路58號",
+   "hours": "10:00–21:30",
+   "rating": 4.3,
+   "tags": [
+    "插座",
+    "WiFi",
+    "安靜"
+   ],
+   "img": "https://cafeandcowork.com/taipei/now-coffee/seating1.jpg",
+   "map": "https://goo.gl/maps/HyuS54TKx64cWaNS8",
+   "dist": 430,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "mkcrtw",
+   "area": "北門",
+   "name": "MKCR / Mountain Kids Coffee Roaster 山小孩咖啡",
+   "addr": "中正區忠孝西路一段126號",
+   "hours": "08:00–20:00",
+   "rating": 4.2,
+   "tags": [
+    "不限時",
+    "安靜",
+    "餐點"
+   ],
+   "img": "https://cafeandcowork.com/taipei/mkcrtw/seating1.jpg",
+   "map": "https://goo.gl/maps/XB3gE5BaWsyZ2qb96",
+   "dist": 230,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "citizenm-taipei-north-gate",
+   "area": "北門",
+   "name": "citizenM Taipei North Gate",
+   "addr": "中正區中華路一段3號",
+   "hours": "24 小時",
+   "rating": 3.9,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "https://cafeandcowork.com/taipei/citizenm-taipei-north-gate/seating1.jpg",
+   "map": "https://goo.gl/maps/cyQRxdSuDS8sFqVt5",
+   "dist": 230,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "do-you-have-coffee-neo",
+   "area": "北門",
+   "name": "Do you have coffee neo cafe 妳有咖啡",
+   "addr": "萬華區 Section 2, Wuchang St, 83-9號號 2F",
+   "hours": "12:00–21:40",
+   "rating": 3.2,
+   "tags": [
+    "餐點",
+    "寵物友善"
+   ],
+   "img": "https://cafeandcowork.com/taipei/do-you-have-coffee-neo/seating1.jpg",
+   "map": "https://g.page/neocafe2f?share",
+   "dist": 670,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "coffee-club",
+   "area": "北門",
+   "name": "COFFEE CLUB",
+   "addr": "中正區忠孝西路一段122號",
+   "hours": "08:00–18:00",
+   "rating": 3.1,
+   "tags": [
+    "WiFi",
+    "安靜",
+    "戶外座"
+   ],
+   "img": "https://cafeandcowork.com/taipei/coffee-club/seating1.jpg",
+   "map": "https://g.page/GETCOFFEECLUB?share",
+   "dist": 230,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "coppii-lumii-living-coffee-zhongzheng",
+   "area": "北門",
+   "name": "Coppii Lumii living coffee 冉冉生活(城中)",
+   "addr": "中正區永綏街7號",
+   "hours": "09:00–17:00",
+   "rating": 3,
+   "tags": [
+    "不限時",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/Rnp6PtBmahuXx6oq7",
+   "dist": 690,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "starbucks-hanzhong",
+   "area": "北門",
+   "name": "STARBUCKS HanZhong",
+   "addr": "萬華區漢中街51號",
+   "hours": "08:00–22:00",
+   "rating": 2.7,
+   "tags": [
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://goo.gl/maps/4vdFggv88CDcM7Fw6",
+   "dist": 660,
+   "source": "cafeandcowork"
+  },
+  {
+   "id": "cn-99993f3d",
+   "area": "雙連",
+   "name": "Aussie Cafe 澳氏咖啡",
+   "addr": "中山區中山北路二段115巷33號",
+   "hours": "12:00–21:00",
+   "rating": 4.5,
+   "tags": [
+    "插座",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Aussie%20Cafe%20%E6%BE%B3%E6%B0%8F%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B5115%E5%B7%B733%E8%99%9F",
+   "dist": 520,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-cd77a757",
+   "area": "雙連",
+   "name": "P&C Boutique Cafe",
+   "addr": "大同區赤峰街28之4號",
+   "hours": "11:00–20:00",
+   "rating": 5,
+   "tags": [
+    "插座",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=P%26C%20Boutique%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%B5%A4%E5%B3%B0%E8%A1%9728%E4%B9%8B4%E8%99%9F",
+   "dist": 170,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-e91ad1f3",
+   "area": "雙連",
+   "name": "別所 Shelter",
+   "addr": "大同區承德路三段51巷18號",
+   "hours": "11:00–23:00",
+   "rating": 4,
+   "tags": [
+    "插座",
+    "安靜",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%88%A5%E6%89%80%20Shelter%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B551%E5%B7%B718%E8%99%9F",
+   "dist": 740,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-334624cf",
+   "area": "雙連",
+   "name": "茴香",
+   "addr": "中山區中山北路二段59巷2號",
+   "hours": "",
+   "rating": 4.4,
+   "tags": [
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B4%E9%A6%99%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E5%B7%B72%E8%99%9F",
+   "dist": 340,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-0c18bfa9",
+   "area": "雙連",
+   "name": "凱倫咖啡",
+   "addr": "中山北路二段65巷2弄5號",
+   "hours": "11:00–21:00",
+   "rating": 4.3,
+   "tags": [
+    "插座",
+    "不限時",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%87%B1%E5%80%AB%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B565%E5%B7%B72%E5%BC%845%E8%99%9F",
+   "dist": 350,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-4b78b4a4",
+   "area": "雙連",
+   "name": "W&M workshop",
+   "addr": "中山區林森北路487號1樓225室",
+   "hours": "12:00–17:30",
+   "rating": 4.1,
+   "tags": [
+    "不限時",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=W%26M%20workshop%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E6%9E%97%E6%A3%AE%E5%8C%97%E8%B7%AF487%E8%99%9F1%E6%A8%93225%E5%AE%A4",
+   "dist": 720,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-a5da00a1",
+   "area": "雙連",
+   "name": "登波咖啡",
+   "addr": "大同區赤峰街49巷25號",
+   "hours": "11:00–19:00",
+   "rating": 4.2,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E7%99%BB%E6%B3%A2%E5%92%96%E5%95%A1%20104%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%B5%A4%E5%B3%B0%E8%A1%9749%E5%B7%B725%E8%99%9F",
+   "dist": 210,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-dc2f410d",
+   "area": "雙連",
+   "name": "Doupicks x Freaker coffee",
+   "addr": "大同區赤峰街77號",
+   "hours": "",
+   "rating": 4.2,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Doupicks%20x%20Freaker%20coffee%20103%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%B5%A4%E5%B3%B0%E8%A1%9777%E8%99%9F",
+   "dist": 110,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-6420a497",
+   "area": "雙連",
+   "name": "產出The Food",
+   "addr": "大同區赤峰街53巷2號",
+   "hours": "09:00–18:00",
+   "rating": 4,
+   "tags": [
+    "餐點",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E7%94%A2%E5%87%BAThe%20Food%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%B5%A4%E5%B3%B0%E8%A1%9753%E5%B7%B72%E8%99%9F",
+   "dist": 190,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-cce39e97",
+   "area": "雙連",
+   "name": "Rayca Coffee 雷咖咖啡錦西店",
+   "addr": "中山區錦西街24號",
+   "hours": "07:00–22:00",
+   "rating": 3.9,
+   "tags": [
+    "插座",
+    "不限時",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Rayca%20Coffee%20%E9%9B%B7%E5%92%96%E5%92%96%E5%95%A1%E9%8C%A6%E8%A5%BF%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E9%8C%A6%E8%A5%BF%E8%A1%9724%E8%99%9F",
+   "dist": 280,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-3e1c3f6b",
+   "area": "台北車站",
+   "name": "呷米共食廚房",
+   "addr": "中正區衡陽路9號",
+   "hours": "11:00–20:00",
+   "rating": 4.6,
+   "tags": [
+    "插座",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%91%B7%E7%B1%B3%E5%85%B1%E9%A3%9F%E5%BB%9A%E6%88%BF%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%A1%A1%E9%99%BD%E8%B7%AF9%E8%99%9F",
+   "dist": 680,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-5b315e80",
+   "area": "台北車站",
+   "name": "壹玖木巷咖啡19 wood alley cafe",
+   "addr": "大同區太原路11巷19號1樓",
+   "hours": "12:30–19:30",
+   "rating": 4.7,
+   "tags": [
+    "插座",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%A3%B9%E7%8E%96%E6%9C%A8%E5%B7%B7%E5%92%96%E5%95%A119%20wood%20alley%20cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E5%A4%AA%E5%8E%9F%E8%B7%AF11%E5%B7%B719%E8%99%9F1%E6%A8%93",
+   "dist": 240,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-e01eb3e8",
+   "area": "台北車站",
+   "name": "Metro Cafe",
+   "addr": "中正區重慶南路一段70號",
+   "hours": "10:00–19:00",
+   "rating": 4.6,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Metro%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%87%8D%E6%85%B6%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B570%E8%99%9F",
+   "dist": 620,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-2303c5c2",
+   "area": "台北車站",
+   "name": "慢動作咖啡館",
+   "addr": "中山區中山北路一段33巷20弄6號",
+   "hours": "11:30–18:00",
+   "rating": 4.4,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E6%85%A2%E5%8B%95%E4%BD%9C%E5%92%96%E5%95%A1%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%B8%80%E6%AE%B533%E5%B7%B720%E5%BC%846%E8%99%9F",
+   "dist": 490,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-3f203930",
+   "area": "台北車站",
+   "name": "城西時光plainstay",
+   "addr": "大同區鄭州路21巷4號",
+   "hours": "10:00–22:00",
+   "rating": 5,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E8%A5%BF%E6%99%82%E5%85%89plainstay%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E9%84%AD%E5%B7%9E%E8%B7%AF21%E5%B7%B74%E8%99%9F",
+   "dist": 320,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-876efc2f",
+   "area": "台北車站",
+   "name": "五咖啡 WOW Coffee",
+   "addr": "大同區長安西路198號1樓",
+   "hours": "",
+   "rating": 5,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E5%92%96%E5%95%A1%20WOW%20Coffee%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E9%95%B7%E5%AE%89%E8%A5%BF%E8%B7%AF198%E8%99%9F1%E6%A8%93",
+   "dist": 420,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-7accd217",
+   "area": "台北車站",
+   "name": "In Natural Coffee 陽光夏",
+   "addr": "中正區衡陽路15號",
+   "hours": "",
+   "rating": 4.8,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=In%20Natural%20Coffee%20%E9%99%BD%E5%85%89%E5%A4%8F%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%A1%A1%E9%99%BD%E8%B7%AF15%E8%99%9F",
+   "dist": 700,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-07709b63",
+   "area": "台北車站",
+   "name": "二會 gojiby",
+   "addr": "中山區華陰街21號2樓",
+   "hours": "",
+   "rating": 4.1,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E6%9C%83%20gojiby%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E8%8F%AF%E9%99%B0%E8%A1%9721%E8%99%9F2%E6%A8%93",
+   "dist": 340,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-35e00706",
+   "area": "忠孝新生",
+   "name": "息坐Shizen Coffee",
+   "addr": "中正區臨沂街55-3號",
+   "hours": "13:00–20:00",
+   "rating": 5,
+   "tags": [
+    "插座",
+    "不限時",
+    "咖啡好喝"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E6%81%AF%E5%9D%90Shizen%20Coffee%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%87%A8%E6%B2%82%E8%A1%9755-3%E8%99%9F",
+   "dist": 600,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-126fdedf",
+   "area": "忠孝新生",
+   "name": "漸漸咖啡店",
+   "addr": "中正區銅山街3巷2號1樓",
+   "hours": "12:00–21:00",
+   "rating": 4.7,
+   "tags": [
+    "插座",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E6%BC%B8%E6%BC%B8%E5%92%96%E5%95%A1%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%8A%85%E5%B1%B1%E8%A1%973%E5%B7%B72%E8%99%9F1%E6%A8%93",
+   "dist": 710,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-65cfdaee",
+   "area": "忠孝新生",
+   "name": "咖啡實驗室Coffee lab",
+   "addr": "中正區忠孝東路二段64巷6號",
+   "hours": "11:00–20:00",
+   "rating": 4.3,
+   "tags": [
+    "不限時",
+    "安靜",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E5%95%A1%E5%AF%A6%E9%A9%97%E5%AE%A4Coffee%20lab%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E4%BA%8C%E6%AE%B564%E5%B7%B76%E8%99%9F",
+   "dist": 440,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-022e3d53",
+   "area": "忠孝新生",
+   "name": "青鳥",
+   "addr": "中山區八德路一段1號",
+   "hours": "",
+   "rating": 4.7,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E9%B3%A5%20%E9%9D%92%E9%B3%A5Bleu%26Book",
+   "dist": 420,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-4551c325",
+   "area": "忠孝新生",
+   "name": "沐樂咖啡 新生店",
+   "addr": "中正區臨沂街13巷7號",
+   "hours": "11:00–22:00",
+   "rating": 4.1,
+   "tags": [
+    "安靜",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E6%B2%90%E6%A8%82%E5%92%96%E5%95%A1%20%E6%96%B0%E7%94%9F%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%87%A8%E6%B2%82%E8%A1%9713%E5%B7%B77%E8%99%9F",
+   "dist": 190,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-20ffb53f",
+   "area": "忠孝新生",
+   "name": "德佈Debut Cafe 台北店",
+   "addr": "中山區新生北路一段15號",
+   "hours": "13:00–22:00",
+   "rating": 4.1,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%BE%B7%E4%BD%88Debut%20Cafe%20%E5%8F%B0%E5%8C%97%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E6%96%B0%E7%94%9F%E5%8C%97%E8%B7%AF%E4%B8%80%E6%AE%B515%E8%99%9F",
+   "dist": 460,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-42d2bbac",
+   "area": "忠孝新生",
+   "name": "HI-HAT COFFEE",
+   "addr": "中正區齊東街68號",
+   "hours": "",
+   "rating": 4.6,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=HI-HAT%20COFFEE%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%BD%8A%E6%9D%B1%E8%A1%9768%E8%99%9F",
+   "dist": 500,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-54fbd3b5",
+   "area": "忠孝新生",
+   "name": "Dream cafe 未來咖啡",
+   "addr": "中山區松江路362巷22號1樓",
+   "hours": "11:00–19:00",
+   "rating": 4.6,
+   "tags": [
+    "插座",
+    "不限時",
+    "咖啡好喝"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Dream%20cafe%20%E6%9C%AA%E4%BE%86%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E6%9D%BE%E6%B1%9F%E8%B7%AF362%E5%B7%B722%E8%99%9F1%E6%A8%93",
+   "dist": 510,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-9b1272f5",
+   "area": "北門",
+   "name": "轉角豆豆咖啡屋-野兔自家烘培咖啡",
+   "addr": "迪化街一段32巷9-1號",
+   "hours": "11:00–19:00",
+   "rating": 5,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E8%BD%89%E8%A7%92%E8%B1%86%E8%B1%86%E5%92%96%E5%95%A1%E5%B1%8B-%E9%87%8E%E5%85%94%E8%87%AA%E5%AE%B6%E7%83%98%E5%9F%B9%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E8%BF%AA%E5%8C%96%E8%A1%97%E4%B8%80%E6%AE%B532%E5%B7%B79-1%E8%99%9F",
+   "dist": 580,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-1209b7cc",
+   "area": "北門",
+   "name": "小城外珈琲 Caffé CityNorth",
+   "addr": "大同區民樂街34號2樓",
+   "hours": "12:00–19:00",
+   "rating": 4.3,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%9F%8E%E5%A4%96%E7%8F%88%E7%90%B2%20Caff%C3%A9%20CityNorth%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%B0%91%E6%A8%82%E8%A1%9734%E8%99%9F2%E6%A8%93",
+   "dist": 790,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-7cf8b0d0",
+   "area": "北門",
+   "name": "蛋黃那一面朝上",
+   "addr": "開封街一段67號",
+   "hours": "08:30–21:00",
+   "rating": 4.7,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E8%9B%8B%E9%BB%83%E9%82%A3%E4%B8%80%E9%9D%A2%E6%9C%9D%E4%B8%8A%20%E8%87%BA%E5%8C%97%E5%B8%82%E9%96%8B%E5%B0%81%E8%A1%97%E4%B8%80%E6%AE%B567%E8%99%9F",
+   "dist": 400,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-d5ea0b4d",
+   "area": "北門",
+   "name": "森高砂咖啡館大稻埕店",
+   "addr": "延平北路二段1號",
+   "hours": "12:00–22:00",
+   "rating": 4.3,
+   "tags": [
+    "插座",
+    "不限時",
+    "咖啡好喝"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E9%AB%98%E7%A0%82%E5%92%96%E5%95%A1%E9%A4%A8%E5%A4%A7%E7%A8%BB%E5%9F%95%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%BB%B6%E5%B9%B3%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B51%E8%99%9F",
+   "dist": 550,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-c6aefd3f",
+   "area": "北門",
+   "name": "Provider -Dry Goods & Coffee-",
+   "addr": "萬華區漢口街二段105號",
+   "hours": "12:00–21:00",
+   "rating": 4.5,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Provider%20-Dry%20Goods%20%26%20Coffee-%20%E5%8F%B0%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%BC%A2%E5%8F%A3%E8%A1%97%E4%BA%8C%E6%AE%B5105%E8%99%9F",
+   "dist": 680,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-4fd9c210",
+   "area": "北門",
+   "name": "幻猻家珈琲 Pallas Cafe",
+   "addr": "大同區迪化街一段14巷14號",
+   "hours": "10:00–18:00",
+   "rating": 4.2,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%B9%BB%E7%8C%BB%E5%AE%B6%E7%8F%88%E7%90%B2%20Pallas%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%BF%AA%E5%8C%96%E8%A1%97%E4%B8%80%E6%AE%B514%E5%B7%B714%E8%99%9F",
+   "dist": 530,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-438711ac",
+   "area": "中山區",
+   "name": "黑露咖啡館OLO Coffee Roasters",
+   "addr": "大同區南京西路18巷26-2號",
+   "hours": "12:00–00:00",
+   "rating": 4.6,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E9%9C%B2%E5%92%96%E5%95%A1%E9%A4%A8OLO%20Coffee%20Roasters%20103%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF18%E5%B7%B726-2%E8%99%9F",
+   "dist": 210,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-6e3de3f9",
+   "area": "中山區",
+   "name": "1+1 Together Republic Cafe",
+   "addr": "中山區中山北路二段26巷10-1號",
+   "hours": "12:00–21:30",
+   "rating": 4.4,
+   "tags": [
+    "插座",
+    "不限時",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=1%2B1%20Together%20Republic%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B526%E5%B7%B710-1%E8%99%9F",
+   "dist": 200,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-6dc96fc7",
+   "area": "中山區",
+   "name": "貓妝自家烘焙咖啡館",
+   "addr": "大同區長安西路64號",
+   "hours": "09:00–20:30",
+   "rating": 4.4,
+   "tags": [
+    "插座",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E5%A6%9D%E8%87%AA%E5%AE%B6%E7%83%98%E7%84%99%E5%92%96%E5%95%A1%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E9%95%B7%E5%AE%89%E8%A5%BF%E8%B7%AF64%E8%99%9F",
+   "dist": 280,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-ba870a83",
+   "area": "中山區",
+   "name": "Hera Cafe",
+   "addr": "大同區承德路二段一巷7號",
+   "hours": "12:00–20:00",
+   "rating": 4.4,
+   "tags": [
+    "插座",
+    "不限時",
+    "咖啡好喝"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Hera%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%BA%8C%E6%AE%B5%E4%B8%80%E5%B7%B77%E8%99%9F",
+   "dist": 220,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-9b068507",
+   "area": "中山區",
+   "name": "MOJO 1921",
+   "addr": "大同區長安西路39號 當代藝術館右側門",
+   "hours": "10:00–20:00",
+   "rating": 4.7,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=MOJO%201921%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E9%95%B7%E5%AE%89%E8%A5%BF%E8%B7%AF39%E8%99%9F",
+   "dist": 250,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-c4fac270",
+   "area": "忠孝復興",
+   "name": "Kafemera 卡菲米朗精品咖啡館",
+   "addr": "大安路一段175巷11號",
+   "hours": "08:00–18:30",
+   "rating": 4.5,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Kafemera%20%E5%8D%A1%E8%8F%B2%E7%B1%B3%E6%9C%97%E7%B2%BE%E5%93%81%E5%92%96%E5%95%A1%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B5175%E5%B7%B711%E8%99%9F",
+   "dist": 650,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-12cedd32",
+   "area": "忠孝復興",
+   "name": "晴境易得",
+   "addr": "忠孝東路三段217巷2弄5號",
+   "hours": "10:45–19:00",
+   "rating": 4.5,
+   "tags": [
+    "不限時",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E6%99%B4%E5%A2%83%E6%98%93%E5%BE%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5217%E5%B7%B72%E5%BC%845%E8%99%9F",
+   "dist": 380,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-d7484ea0",
+   "area": "忠孝復興",
+   "name": "Balance caf'e 平衡點咖啡",
+   "addr": "中山區八德路二段300巷56號",
+   "hours": "11:00–20:30",
+   "rating": 4.4,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Balance%20caf%27e%20%E5%B9%B3%E8%A1%A1%E9%BB%9E%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%85%AB%E5%BE%B7%E8%B7%AF%E4%BA%8C%E6%AE%B5300%E5%B7%B756%E8%99%9F",
+   "dist": 470,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-2da71fb6",
+   "area": "忠孝復興",
+   "name": "Keystone Coffee Roasters",
+   "addr": "中山區八德路二段267巷19號1樓",
+   "hours": "08:00–19:00",
+   "rating": 4.8,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Keystone%20Coffee%20Roasters%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%85%AB%E5%BE%B7%E8%B7%AF%E4%BA%8C%E6%AE%B5267%E5%B7%B719%E8%99%9F1%E6%A8%93",
+   "dist": 710,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-7eb8a4e5",
+   "area": "忠孝復興",
+   "name": "溫和藍咖啡 (Gentle Blue)",
+   "addr": "松山區長安東路二段288號",
+   "hours": "",
+   "rating": 4.8,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "平價"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E6%BA%AB%E5%92%8C%E8%97%8D%E5%92%96%E5%95%A1%20%28Gentle%20Blue%29%20%E5%8F%B0%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E9%95%B7%E5%AE%89%E6%9D%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5288%E8%99%9F",
+   "dist": 740,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-be5e5cdc",
+   "area": "市政府",
+   "name": "佐料咖啡",
+   "addr": "信義區永吉路120巷81弄2號",
+   "hours": "12:00–19:00",
+   "rating": 4.9,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E6%96%99%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E6%B0%B8%E5%90%89%E8%B7%AF120%E5%B7%B781%E5%BC%842%E8%99%9F",
+   "dist": 550,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-f814b75c",
+   "area": "市政府",
+   "name": "We & Me cafe",
+   "addr": "信義區基隆路一段188-2號",
+   "hours": "10:00–22:00",
+   "rating": 4.9,
+   "tags": [
+    "咖啡好喝",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=We%20%26%20Me%20cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E5%9F%BA%E9%9A%86%E8%B7%AF%E4%B8%80%E6%AE%B5188-2%E8%99%9F",
+   "dist": 130,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-77928b2d",
+   "area": "市政府",
+   "name": "Out of office 不在辦公室",
+   "addr": "忠孝東路五段之17號之3B1",
+   "hours": "10:00–22:00",
+   "rating": 4.3,
+   "tags": [
+    "插座",
+    "不限時",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=Out%20of%20office%20%E4%B8%8D%E5%9C%A8%E8%BE%A6%E5%85%AC%E5%AE%A4%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E4%BA%94%E6%AE%B5%E4%B9%8B17%E8%99%9F%E4%B9%8B3B1",
+   "dist": 50,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-c34689b6",
+   "area": "市政府",
+   "name": "七三茶堂 7teahouse",
+   "addr": "信義區忠孝東路四段553巷46弄16號",
+   "hours": "",
+   "rating": 4.4,
+   "tags": [
+    "安靜",
+    "餐點",
+    "WiFi"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E4%B8%89%E8%8C%B6%E5%A0%82%207teahouse%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E5%9B%9B%E6%AE%B5553%E5%B7%B746%E5%BC%8416%E8%99%9F",
+   "dist": 390,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-663308f0",
+   "area": "忠孝敦化",
+   "name": "走咖啡 Gofor Cafe",
+   "addr": "大安區大安路一段51巷33號1樓",
+   "hours": "12:00–22:00",
+   "rating": 4.8,
+   "tags": [
+    "插座",
+    "不限時",
+    "咖啡好喝"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E8%B5%B0%E5%92%96%E5%95%A1%20Gofor%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%A4%A7%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B551%E5%B7%B733%E8%99%9F1%E6%A8%93",
+   "dist": 390,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-f01c5f46",
+   "area": "忠孝敦化",
+   "name": "CAFEPRO敦化店",
+   "addr": "松山區八德路三段12巷52弄13號",
+   "hours": "09:00–21:00",
+   "rating": 4.6,
+   "tags": [
+    "不限時",
+    "咖啡好喝",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=CAFEPRO%E6%95%A6%E5%8C%96%E5%BA%97%20105%E5%8F%B0%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E5%85%AB%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B512%E5%B7%B752%E5%BC%8413%E8%99%9F",
+   "dist": 520,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-6d20c0c8",
+   "area": "忠孝敦化",
+   "name": "James House",
+   "addr": "大安區安和路一段127巷5號",
+   "hours": "13:30–00:00",
+   "rating": 4.2,
+   "tags": [
+    "插座",
+    "不限時",
+    "安靜"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=James%20House%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%AE%89%E5%92%8C%E8%B7%AF%E4%B8%80%E6%AE%B5127%E5%B7%B75%E8%99%9F",
+   "dist": 770,
+   "source": "cafenomad"
+  },
+  {
+   "id": "cn-3de7409f",
+   "area": "忠孝敦化",
+   "name": "咖啡瑪榭忠孝店",
+   "addr": "大安區敦化南路一段233巷62號",
+   "hours": "08:30–22:00",
+   "rating": 4.2,
+   "tags": [
+    "插座",
+    "安靜",
+    "餐點"
+   ],
+   "img": "",
+   "map": "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E5%95%A1%E7%91%AA%E6%A6%AD%E5%BF%A0%E5%AD%9D%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%95%A6%E5%8C%96%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5233%E5%B7%B762%E8%99%9F",
+   "dist": 200,
+   "source": "cafenomad"
+  }
+ ]
+}

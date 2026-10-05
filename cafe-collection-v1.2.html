@@ -1,0 +1,3052 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>咖啡收藏簿 · 台北</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      /* 字體：jf open 粉圓 2.1（SIL OFL），檔案放在 fonts/ */
+      @font-face {
+        font-family: "jf-openhuninn";
+        src: url("fonts/jf-openhuninn-2.1.ttf") format("truetype");
+        font-display: swap;
+      }
+      :root {
+        --paper: #e8d9c3;
+        --paper-dot: #d9c6a8;
+        --card: #fffaf1;
+        --ink: #2e1f16;
+        --ink-soft: #6b5444;
+        --bean: #5a3a27;
+        --crema: #c98f4a;
+        --crema-ink: #2e1f16;
+        --badge: #ead6bb;
+        --bar-bg: #efe3d1;
+        --nav: #fffaf1;
+        --line: #2e1f16;
+        --heart: #c0392b;
+        box-sizing: border-box;
+        padding-top: env(safe-area-inset-top, 0px);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          --paper: #1f1611;
+          --paper-dot: #2b2019;
+          --card: #2d2119;
+          --ink: #f3e6d4;
+          --ink-soft: #bda68f;
+          --bean: #d9a86c;
+          --crema: #c98f4a;
+          --crema-ink: #1f1611;
+          --badge: #4a3526;
+          --bar-bg: #3b2c21;
+          --nav: #2a1f18;
+          --line: #0f0a07;
+          --heart: #ff6b5b;
+        }
+      }
+      :root[data-theme="dark"] {
+        --paper: #1f1611;
+        --paper-dot: #2b2019;
+        --card: #2d2119;
+        --ink: #f3e6d4;
+        --ink-soft: #bda68f;
+        --bean: #d9a86c;
+        --crema: #c98f4a;
+        --crema-ink: #1f1611;
+        --badge: #4a3526;
+        --bar-bg: #3b2c21;
+        --nav: #2a1f18;
+        --line: #0f0a07;
+        --heart: #ff6b5b;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html {
+        height: 100%;
+        scroll-padding-top: env(safe-area-inset-top, 0px);
+      }
+      body {
+        margin: 0;
+        min-height: 100%;
+        font-family:
+          "jf-openhuninn", "PingFang TC", "Microsoft JhengHei", sans-serif;
+        color: var(--ink);
+        background-color: var(--paper);
+        background-image: radial-gradient(
+          var(--paper-dot) 1px,
+          transparent 1.2px
+        );
+        background-size: 14px 14px;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .app {
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 0 14px 110px;
+      }
+      button {
+        font: inherit;
+        color: inherit;
+      }
+      :focus-visible {
+        outline: 3px solid var(--crema);
+        outline-offset: 2px;
+      }
+
+      /* Header */
+      .top {
+        padding: 18px 2px 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 12px;
+      }
+      .brand {
+        font-family: "jf-openhuninn", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.1;
+        margin: 0;
+        letter-spacing: 0.02em;
+      }
+      .brand small {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--ink-soft);
+        margin-top: 4px;
+        font-family: "jf-openhuninn", sans-serif;
+        letter-spacing: 0;
+      }
+      .stamp {
+        flex: none;
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        border: 2px dashed var(--bean);
+        color: var(--bean);
+        display: grid;
+        place-items: center;
+        text-align: center;
+        font-family: "jf-openhuninn", sans-serif;
+        font-size: 12px;
+        line-height: 1.15;
+        transform: rotate(-10deg);
+      }
+      .stamp b {
+        font-size: 18px;
+        display: block;
+      }
+
+      /* Search */
+      .search {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--card);
+        border: 2.5px solid var(--line);
+        border-radius: 12px;
+        padding: 0 12px;
+        height: 46px;
+        box-shadow: 3px 3px 0 var(--line);
+        margin: 6px 0 12px;
+      }
+      .search .bi {
+        flex: none;
+        color: var(--ink-soft);
+        font-size: 19px;
+        line-height: 1;
+      }
+      .search input {
+        flex: 1;
+        min-width: 0;
+        border: 0;
+        background: none;
+        outline: none;
+        font: inherit;
+        font-size: 15px;
+        color: var(--ink);
+      }
+      .search input::placeholder {
+        color: var(--ink-soft);
+      }
+      .search .clear {
+        border: 0;
+        background: none;
+        padding: 4px;
+        cursor: pointer;
+        color: var(--ink-soft);
+        font-size: 18px;
+        line-height: 1;
+      }
+
+      .rail {
+        position: relative;
+        margin: 0 -14px;
+      }
+      .rail::before,
+      .rail::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 10px;
+        width: 44px;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.2s;
+        z-index: 1;
+      }
+      .rail::before {
+        left: 0;
+        background: linear-gradient(to right, var(--paper) 30%, transparent);
+      }
+      .rail::after {
+        right: 0;
+        background: linear-gradient(to left, var(--paper) 30%, transparent);
+      }
+      .rail.can-l::before,
+      .rail.can-r::after {
+        opacity: 1;
+      }
+      .rail-btn {
+        position: absolute;
+        top: calc(50% - 5px);
+        transform: translateY(-50%);
+        z-index: 2;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid var(--line);
+        background: var(--card);
+        color: var(--ink);
+        display: none;
+        place-items: center;
+        cursor: pointer;
+        padding: 0;
+        font-size: 14px;
+        box-shadow: 2px 2px 0 var(--line);
+      }
+      .rail-btn.l {
+        left: 6px;
+      }
+      .rail-btn.r {
+        right: 6px;
+      }
+      .rail.can-l .rail-btn.l,
+      .rail.can-r .rail-btn.r {
+        display: grid;
+      }
+      .chips {
+        position: relative;
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        padding: 2px 16px 10px;
+        scrollbar-width: none;
+        cursor: grab;
+        touch-action: pan-x pan-y;
+        overscroll-behavior-x: contain;
+      }
+      .chips.dragging {
+        cursor: grabbing;
+        scroll-behavior: auto;
+      }
+      .chips.dragging .chip {
+        pointer-events: none;
+      }
+      .chips::-webkit-scrollbar {
+        display: none;
+      }
+      .chip {
+        flex: none;
+        border: 2px solid var(--line);
+        background: var(--card);
+        border-radius: 999px;
+        padding: 6px 13px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .chip[aria-pressed="true"] {
+        background: var(--bean);
+        color: var(--card);
+        border-color: var(--line);
+      }
+
+      .result-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+        color: var(--ink-soft);
+        margin: 4px 2px 14px;
+      }
+      .result-line strong {
+        color: var(--ink);
+      }
+
+      /* Grid & Card */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 22px 12px;
+      }
+      .card {
+        position: relative;
+        background: var(--card);
+        border: 2.5px solid var(--line);
+        border-radius: 10px;
+        box-shadow: 4px 4px 0 var(--line);
+        display: flex;
+        flex-direction: column;
+      }
+      .card:nth-child(4n + 1) {
+        transform: rotate(-0.7deg);
+      }
+      .card:nth-child(4n + 2) {
+        transform: rotate(0.6deg);
+      }
+      .card:nth-child(4n + 3) {
+        transform: rotate(0.4deg);
+      }
+      .card:nth-child(4n) {
+        transform: rotate(-0.5deg);
+      }
+      .pin {
+        position: absolute;
+        top: -9px;
+        left: 50%;
+        width: 16px;
+        height: 16px;
+        margin-left: -8px;
+        background: var(--ink);
+        border-radius: 50%;
+        z-index: 2;
+        box-shadow: inset -3px -3px 0 rgba(255, 255, 255, 0.18);
+      }
+      .cover {
+        position: relative;
+        aspect-ratio: 4/3.4;
+        border-bottom: 2.5px solid var(--line);
+        overflow: hidden;
+        border-radius: 7px 7px 0 0;
+      }
+      .cover svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .badge {
+        position: absolute;
+        left: 6px;
+        bottom: 6px;
+        background: var(--badge);
+        color: var(--ink);
+        border: 2px solid var(--line);
+        font-size: 11.5px;
+        font-weight: 700;
+        padding: 1px 7px;
+        border-radius: 7px;
+      }
+      .fav {
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        border: 2px solid var(--line);
+        background: var(--card);
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        padding: 0;
+      }
+      .fav .bi {
+        font-size: 17px;
+        line-height: 1;
+      }
+      .fav .bi-heart-fill {
+        display: none;
+        color: var(--heart);
+      }
+      .fav[aria-pressed="true"] .bi-heart {
+        display: none;
+      }
+      .fav[aria-pressed="true"] .bi-heart-fill {
+        display: block;
+      }
+      .fav.pop {
+        animation: pop 0.32s ease;
+      }
+      .cover img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background: var(--bar-bg);
+      }
+      .photo-btn {
+        position: absolute;
+        right: 6px;
+        bottom: 6px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid var(--line);
+        background: var(--card);
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        padding: 0;
+      }
+      .photo-btn .bi {
+        font-size: 15px;
+        line-height: 1;
+      }
+      .sheet-mask {
+        position: fixed;
+        inset: 0;
+        background: rgba(20, 12, 8, 0.45);
+        z-index: 40;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .sheet {
+        width: 100%;
+        max-width: 480px;
+        background: var(--card);
+        border: 2.5px solid var(--line);
+        border-bottom: 0;
+        border-radius: 16px 16px 0 0;
+        padding: 16px 16px calc(16px + env(safe-area-inset-bottom, 0px));
+        animation: up 0.22s ease;
+      }
+      @keyframes up {
+        from {
+          transform: translateY(100%);
+        }
+      }
+      .sheet h3 {
+        margin: 0 0 4px;
+        font-size: 16px;
+      }
+      .sheet p {
+        margin: 0 0 14px;
+        font-size: 13px;
+        color: var(--ink-soft);
+      }
+      .sheet button {
+        display: block;
+        width: 100%;
+        height: 46px;
+        margin-top: 8px;
+        border: 2px solid var(--line);
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 15px;
+        cursor: pointer;
+        background: var(--card);
+      }
+      .sheet .primary {
+        background: var(--crema);
+        color: var(--crema-ink);
+      }
+      .sheet .danger {
+        color: var(--heart);
+      }
+      .url-row {
+        display: flex;
+        gap: 8px;
+        margin-top: 8px;
+      }
+      .url-row input {
+        flex: 1;
+        min-width: 0;
+        height: 46px;
+        border: 2px solid var(--line);
+        border-radius: 10px;
+        padding: 0 12px;
+        font: inherit;
+        font-size: 14px;
+        background: var(--card);
+        color: var(--ink);
+      }
+      .sheet .url-ok {
+        width: auto;
+        margin: 0;
+        padding: 0 16px;
+        background: var(--bean);
+        color: var(--card);
+      }
+      .url-hint {
+        font-size: 12px !important;
+        margin: 6px 2px 0 !important;
+        min-height: 0;
+      }
+      .url-hint:empty {
+        display: none;
+      }
+      .loading-photo {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: rgba(0, 0, 0, 0.35);
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+      }
+      @keyframes pop {
+        40% {
+          transform: scale(1.25);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .body {
+        padding: 9px 9px 10px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+      .name {
+        font-size: 15.5px;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.35;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .addr .bi {
+        flex: none;
+        color: var(--heart);
+      }
+      .addr {
+        font-size: 12px;
+        color: var(--ink-soft);
+        margin: 3px 0 0;
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin: 7px 0 0;
+        min-height: 20px;
+      }
+      .tag {
+        font-size: 11px;
+        border: 1.5px solid var(--ink-soft);
+        color: var(--ink-soft);
+        border-radius: 5px;
+        padding: 0 5px;
+        line-height: 17px;
+      }
+      .btn {
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background: var(--crema);
+        color: var(--crema-ink);
+        text-decoration: none;
+        border: 2px solid var(--line);
+        border-radius: 8px;
+        height: 34px;
+        font-size: 13.5px;
+        font-weight: 700;
+        margin-block-start: 9px;
+      }
+      .btn:active {
+        transform: translate(1px, 1px);
+      }
+      .meta {
+        display: flex;
+        justify-content: space-between;
+        font-size: 11.5px;
+        font-weight: 700;
+        margin-top: 8px;
+        gap: 4px;
+      }
+      .meta span:last-child {
+        font-weight: 500;
+        color: var(--ink-soft);
+      }
+      .bar {
+        height: 7px;
+        border: 1.5px solid var(--line);
+        border-radius: 6px;
+        background: var(--bar-bg);
+        margin-top: 4px;
+        overflow: hidden;
+      }
+      .bar i {
+        display: block;
+        height: 100%;
+        background: var(--crema);
+      }
+
+      /* Pager */
+      .pager {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        margin: 28px 0 6px;
+        flex-wrap: wrap;
+      }
+      .pager button {
+        min-width: 38px;
+        height: 38px;
+        border: 2px solid var(--line);
+        border-radius: 9px;
+        background: var(--card);
+        font-weight: 700;
+        cursor: pointer;
+        padding: 0 8px;
+      }
+      .pager button[aria-current="page"] {
+        background: var(--bean);
+        color: var(--card);
+      }
+      .pager button:disabled {
+        opacity: 0.35;
+        cursor: default;
+      }
+      .pager-note {
+        text-align: center;
+        font-size: 12px;
+        color: var(--ink-soft);
+      }
+
+      /* Empty */
+      .empty {
+        text-align: center;
+        padding: 40px 20px;
+        background: var(--card);
+        border: 2.5px dashed var(--ink-soft);
+        border-radius: 14px;
+        margin-top: 8px;
+      }
+      .empty .big {
+        font-size: 42px;
+        line-height: 1;
+        color: var(--crema);
+      }
+      .empty h2 {
+        font-family: "jf-openhuninn", sans-serif;
+        margin: 12px 0 6px;
+        font-size: 21px;
+      }
+      .empty p {
+        margin: 0 0 16px;
+        color: var(--ink-soft);
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .empty .go {
+        border: 2px solid var(--line);
+        background: var(--crema);
+        color: var(--crema-ink);
+        border-radius: 9px;
+        padding: 9px 18px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      /* Bottom Nav */
+      .nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        background: var(--nav);
+        border-top: 2.5px solid var(--line);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      .nav-in {
+        max-width: 480px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 8px 24px 8px;
+      }
+      .tab {
+        border: 0;
+        background: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--ink-soft);
+        min-width: 96px;
+        padding: 0;
+      }
+      .tab .ic {
+        width: 62px;
+        height: 34px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        transition: background 0.2s;
+      }
+      .tab .ic .bi {
+        font-size: 21px;
+        line-height: 1;
+      }
+      .tab .bi-bookmark-fill,
+      .tab[aria-current="page"] .bi-bookmark {
+        display: none;
+      }
+      .tab[aria-current="page"] .bi-bookmark-fill {
+        display: inline;
+      }
+      .tab[aria-current="page"] {
+        color: var(--bean);
+        font-weight: 700;
+      }
+      .tab[aria-current="page"] .ic {
+        background: var(--bean);
+        color: var(--card);
+      }
+      .count {
+        position: absolute;
+        margin: -4px 0 0 26px;
+        background: var(--heart);
+        color: #fff;
+        font-size: 10.5px;
+        font-weight: 700;
+        min-width: 18px;
+        height: 18px;
+        border-radius: 9px;
+        display: grid;
+        place-items: center;
+        padding: 0 4px;
+        border: 2px solid var(--nav);
+      }
+      .tab .ic {
+        position: relative;
+      }
+
+      .toast {
+        position: fixed;
+        left: 50%;
+        bottom: calc(92px + env(safe-area-inset-bottom, 0px));
+        transform: translate(-50%, 20px);
+        background: var(--ink);
+        color: var(--card);
+        padding: 9px 16px;
+        border-radius: 999px;
+        font-size: 13.5px;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.25s;
+        z-index: 30;
+        white-space: nowrap;
+      }
+      .toast.show {
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
+      .hidden {
+        display: none !important;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation: none !important;
+          transition: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <header class="top">
+        <h1 class="brand" id="pageTitle">
+          丐幫找咖啡<small id="pageSub">台北市 · 8 個捷運生活圈 · 118 間</small>
+        </h1>
+        <div class="stamp" aria-hidden="true">
+          <div><b>台北</b>CAFÉ</div>
+        </div>
+      </header>
+
+      <!-- 查詢 -->
+      <section id="viewSearch">
+        <label class="search">
+          <i class="bi bi-search" aria-hidden="true"></i>
+          <input
+            id="q"
+            type="search"
+            placeholder="搜尋店名、街道或特色（如：插座）"
+            autocomplete="off"
+            aria-label="搜尋咖啡廳"
+          />
+          <button
+            class="clear hidden"
+            id="clearQ"
+            type="button"
+            aria-label="清除搜尋"
+          >
+            <i class="bi bi-x-circle-fill"></i>
+          </button>
+        </label>
+        <div class="rail">
+          <button
+            class="rail-btn l"
+            type="button"
+            data-dir="-1"
+            aria-label="往左捲動區域"
+            tabindex="-1"
+          >
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <div
+            class="chips"
+            id="areaChips"
+            role="group"
+            aria-label="選擇區域"
+          ></div>
+          <button
+            class="rail-btn r"
+            type="button"
+            data-dir="1"
+            aria-label="往右捲動區域"
+            tabindex="-1"
+          >
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+        <div class="result-line">
+          <span id="resultCount"></span><span id="pageInfo"></span>
+        </div>
+        <div class="grid" id="searchGrid"></div>
+        <div id="searchEmpty"></div>
+        <nav class="pager" id="searchPager" aria-label="分頁"></nav>
+      </section>
+
+      <!-- 我的收藏 -->
+      <section id="viewFav" class="hidden">
+        <div class="rail">
+          <button
+            class="rail-btn l"
+            type="button"
+            data-dir="-1"
+            aria-label="往左捲動區域"
+            tabindex="-1"
+          >
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <div
+            class="chips"
+            id="favChips"
+            role="group"
+            aria-label="收藏區域篩選"
+          ></div>
+          <button
+            class="rail-btn r"
+            type="button"
+            data-dir="1"
+            aria-label="往右捲動區域"
+            tabindex="-1"
+          >
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+        <div class="result-line">
+          <span id="favCount"></span><span id="favPageInfo"></span>
+        </div>
+        <div class="grid" id="favGrid"></div>
+        <div id="favEmpty"></div>
+        <nav class="pager" id="favPager" aria-label="收藏分頁"></nav>
+      </section>
+    </div>
+
+    <nav class="nav" aria-label="主選單">
+      <div class="nav-in">
+        <button class="tab" data-tab="search" aria-current="page">
+          <span class="ic"
+            ><i class="bi bi-search" aria-hidden="true"></i
+          ></span>
+          查詢
+        </button>
+        <button class="tab" data-tab="fav">
+          <span class="ic"
+            ><i class="bi bi-bookmark" aria-hidden="true"></i
+            ><i class="bi bi-bookmark-fill" aria-hidden="true"></i
+            ><span class="count hidden" id="favBadge">0</span></span
+          >
+          我的收藏
+        </button>
+      </div>
+    </nav>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <input type="file" id="photoInput" accept="image/*" class="hidden" />
+    <div
+      class="sheet-mask hidden"
+      id="sheet"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="sheetTitle"
+    >
+      <div class="sheet">
+        <h3 id="sheetTitle">店家圖片</h3>
+        <p id="sheetSub"></p>
+        <button class="primary" data-sheet="replace">
+          <i class="bi bi-upload"></i> 從手機上傳圖片
+        </button>
+        <div class="url-row">
+          <input
+            id="urlInput"
+            type="url"
+            inputmode="url"
+            placeholder="或貼上圖片網址 https://…"
+            aria-label="圖片網址"
+          />
+          <button data-sheet="url" class="url-ok">套用</button>
+        </div>
+        <p class="url-hint" id="urlHint"></p>
+        <button class="danger" data-sheet="remove" id="removeBtn">
+          <i class="bi bi-trash3"></i> 移除自訂圖片
+        </button>
+        <button data-sheet="cancel">取消</button>
+      </div>
+    </div>
+
+    <script>
+      /* ===== 區域 ===== */
+      const AREAS = [
+        "忠孝復興",
+        "忠孝敦化",
+        "市政府",
+        "台北車站",
+        "中山區",
+        "雙連",
+        "忠孝新生",
+        "北門",
+      ];
+
+      /* ===== 店家資料 =====
+   來源：cafeandcowork.com/zh-tw/taipei（評分為該站 5 分制綜合分數），依座標歸到最近的捷運站（約 1km 內）
+   博客來 Dream Plaza 為手動加入（該站無評分）
+   [id, 區域, 店名, 地址, 營業時間, 評分, 特色標籤, 圖片路徑, Google 地圖, 距站公尺] */
+      const RAW = [
+        [
+          "doi-chaang-coffee",
+          "忠孝復興",
+          "豆一昌咖啡 Doi Chaang Coffee",
+          "大安區 2樓之2, No. 70號, Section 1, Fuxing S Rd",
+          "10:00–18:00",
+          4.1,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/doi-chaang-coffee/seating1.jpg",
+          "https://goo.gl/maps/tkQerCjMXuXeQADFA",
+          280,
+        ],
+        [
+          "homeys-cafe",
+          "忠孝復興",
+          "Homey's Cafe",
+          "大安區 Lane, Section 1, Dunhua South Road, 36號騷豆花樓上2樓",
+          "12:00–22:00",
+          4.0,
+          ["插座", "WiFi", "餐點"],
+          "/taipei/homeys-cafe/seating.jpg",
+          "https://goo.gl/maps/bRPrSSe7o3Pu2c9W9",
+          310,
+        ],
+        [
+          "slow-pace-cafe",
+          "忠孝復興",
+          "Slow Pace Cafe 慢步調 咖啡館",
+          "大安區忠孝東路三段251巷1弄1號",
+          "12:00–20:00",
+          3.9,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/slow-pace-cafe/seating1.jpg",
+          "https://g.page/slow-pace-cafe?share",
+          210,
+        ],
+        [
+          "dreamers-coffee-roasters-breeze-fuxing",
+          "忠孝復興",
+          "Dreamers - Breeze Fuxing (微風復興店)",
+          "松山區復興南路一段45號",
+          "07:00–22:00",
+          3.7,
+          ["插座", "餐點"],
+          "",
+          "https://goo.gl/maps/m9VyVBnK1fGbcCxy5",
+          450,
+        ],
+        [
+          "uranium-cafe",
+          "忠孝復興",
+          "Uranium Cafe 鈾咖啡餐酒館",
+          "大安區復興南路一段253巷32號1樓",
+          "11:30–23:00",
+          3.4,
+          ["WiFi", "餐點", "戶外座"],
+          "",
+          "https://g.page/uraniumcafe?share",
+          560,
+        ],
+        [
+          "i-am-kissa-azuki",
+          "忠孝復興",
+          "喫茶小豆KISSA AZUKI",
+          "松山區南京東路三段256巷47號",
+          "12:30–18:30",
+          3.3,
+          ["插座", "不限時", "WiFi"],
+          "",
+          "https://goo.gl/maps/gMtR2R85jKM4RkGm9",
+          890,
+        ],
+        [
+          "dreamers-coffee-roasters",
+          "忠孝復興",
+          "Dreamers - Fuxing (復興店)",
+          "大安區 No. 7號, Lane, Section 1, Fuxing South Road",
+          "07:00–22:00",
+          3.2,
+          ["插座", "餐點"],
+          "",
+          "https://g.page/DreamersCoffeeRoastersFuxing?share",
+          170,
+        ],
+        [
+          "come-true-coffee-sogo",
+          "忠孝復興",
+          "Come True Coffee (SOGO)",
+          "大安區 Section 3, Zhongxiao E Rd, 300號9F",
+          "11:00–21:30",
+          3.2,
+          ["不限時", "餐點"],
+          "",
+          "https://goo.gl/maps/ioHBp6TJej269hdc9",
+          80,
+        ],
+        [
+          "awake-til-sleep",
+          "忠孝復興",
+          "Awake til sleep",
+          "大安區仁愛路三段143巷38號第1責任區",
+          "08:00–00:00",
+          3.1,
+          ["不限時", "餐點", "戶外座"],
+          "/taipei/awake-til-sleep/seating1.jpg",
+          "https://goo.gl/maps/Aqq4aRhjSd5cbjX77",
+          170,
+        ],
+        [
+          "koku-cafe",
+          "忠孝復興",
+          "KoKu café",
+          "大安區大安路一段175巷6號",
+          "11:00–19:00",
+          2.8,
+          ["WiFi", "餐點"],
+          "/taipei/koku-cafe/seating1.jpg",
+          "https://goo.gl/maps/xLL7h8nFQSkzA5VbA",
+          640,
+        ],
+        [
+          "annyoung-cafe",
+          "忠孝敦化",
+          "annyoung cafe",
+          "大安區延吉街70巷5弄2號1樓",
+          "12:00–23:00",
+          4.3,
+          ["插座", "WiFi", "安靜"],
+          "",
+          "https://g.page/annyoungcafe?share",
+          300,
+        ],
+        [
+          "truffles-living",
+          "忠孝敦化",
+          "Truffles Living (舒服生活)",
+          "大安區 No. 66號, Wenchang Street",
+          "12:00–20:00",
+          4.3,
+          ["WiFi", "安靜", "餐點"],
+          "/taipei/truffles-living/outside.jpg",
+          "https://goo.gl/maps/hmGsUgqQBNQLF6qN9",
+          970,
+        ],
+        [
+          "congrats-cafe",
+          "忠孝敦化",
+          "Congrats Café",
+          "大安區 No. 49號, Wenchang Street",
+          "08:00–22:00",
+          4.1,
+          ["插座", "WiFi", "安靜"],
+          "/taipei/congrats-cafe/seating1.jpg",
+          "https://goo.gl/maps/jd3Hh63LwzWMxuzS7",
+          950,
+        ],
+        [
+          "dreamers-coffee-roasters-guangfu",
+          "忠孝敦化",
+          "Dreamers - Guangfu (光復店)",
+          "大安區 No. 11號, Lane, Guangfu South Road",
+          "07:00–22:00",
+          4.0,
+          ["插座", "WiFi", "餐點"],
+          "/taipei/dreamers-coffee-roasters-guangfu/outside.jpg",
+          "https://g.page/DreamersCoffeeRoastersGuangfu?share",
+          610,
+        ],
+        [
+          "moi-cafe",
+          "忠孝敦化",
+          "Moi Cafe",
+          "大安區仁愛路四段408巷13號",
+          "08:00–18:30",
+          4.0,
+          ["插座", "WiFi", "安靜"],
+          "/taipei/moi-cafe/seating1.jpg",
+          "https://goo.gl/maps/ZpCEdxeghndLAZQu7",
+          770,
+        ],
+        [
+          "miracle-coffee",
+          "忠孝敦化",
+          "Miracle Coffee",
+          "大安區 No. 8號, Lane, Section 1, Dunhua South Road",
+          "11:00–20:00",
+          3.9,
+          ["安靜", "餐點", "戶外座"],
+          "/taipei/miracle-coffee/seating1.jpg",
+          "https://goo.gl/maps/sGFDmFpWeTJPbiJi8",
+          230,
+        ],
+        [
+          "greengreengreen",
+          "忠孝敦化",
+          "greengreengreen 綠咖生活概念店",
+          "大安區延吉街244號2樓",
+          "11:00–18:00",
+          3.7,
+          ["WiFi", "安靜"],
+          "/taipei/greengreengreen/seating1.jpg",
+          "https://g.page/liukagreengreengreen?share",
+          790,
+        ],
+        [
+          "arts-cafe",
+          "忠孝敦化",
+          "Art's Cafe",
+          "松山區八德路三段192號",
+          "07:30–19:00",
+          3.7,
+          ["不限時"],
+          "",
+          "https://goo.gl/maps/GXdsZqd6zZXY2UpE9",
+          900,
+        ],
+        [
+          "oasis-coffee-roasters",
+          "忠孝敦化",
+          "Oasis Coffee Roasters",
+          "大安區信義路四段199巷7-3號",
+          "09:00–19:00",
+          3.6,
+          ["不限時", "WiFi", "餐點"],
+          "/taipei/oasis-coffee-roasters/seating1.jpg",
+          "https://goo.gl/maps/S4oakftSdAdQpGP5A",
+          820,
+        ],
+        [
+          "toast-chat",
+          "忠孝敦化",
+          "Toast Chat",
+          "大安區光復南路290巷58號",
+          "12:00–22:00",
+          3.6,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/toast-chat/seating1.jpg",
+          "https://g.page/ToastChat?share",
+          520,
+        ],
+        [
+          "true-from",
+          "忠孝敦化",
+          "true from",
+          "松山區八德路三段158巷5號",
+          "10:00–20:00",
+          3.5,
+          ["WiFi", "僅收現金"],
+          "",
+          "https://goo.gl/maps/5dB5ro9oAiEvwyEe8",
+          800,
+        ],
+        [
+          "lost-and-found-it-cafe-lounge",
+          "忠孝敦化",
+          "Lost and Found it Cafe/Lounge",
+          "大安區 No. 6號, Lane, Section 1, Dunhua South Road",
+          "12:00–19:00",
+          3.5,
+          ["WiFi", "僅收現金"],
+          "/taipei/lost-and-found-it-cafe-lounge/sign.jpg",
+          "https://g.page/lostandfoundit1?share",
+          280,
+        ],
+        [
+          "ma-cafe",
+          "忠孝敦化",
+          "MA Cafe",
+          "大安區 No. 1號, Lane 11, Section 2, Dunhua South Road",
+          "11:00–19:00",
+          3.4,
+          ["安靜"],
+          "/taipei/ma-cafe/seating1.jpg",
+          "https://goo.gl/maps/x3LEU7curB6wQXk6A",
+          980,
+        ],
+        [
+          "coffee-lovers-planet",
+          "忠孝敦化",
+          "Coffee Lover's Planet",
+          "大安區 敦化南路1段246號號 B1",
+          "09:00–21:30",
+          3.3,
+          ["不限時", "戶外座"],
+          "",
+          "https://goo.gl/maps/mAK8TfijJTnyjR566",
+          270,
+        ],
+        [
+          "looproom",
+          "忠孝敦化",
+          "looproom",
+          "大安區四維路14巷11號",
+          "09:00–17:00",
+          3.3,
+          ["不限時", "WiFi"],
+          "",
+          "https://goo.gl/maps/DzdVUCrCmgsmRzcy6",
+          610,
+        ],
+        [
+          "ueshima-coffee-zhongxiao-dunhua",
+          "忠孝敦化",
+          "Ueshima Coffee Zhongxiao Dunhua",
+          "大安區 敦化南路1段199號",
+          "07:30–22:00",
+          2.9,
+          [],
+          "",
+          "https://goo.gl/maps/QymxegDFKMMmguEs5",
+          190,
+        ],
+        [
+          "cafe-costumice",
+          "忠孝敦化",
+          "Cafe Costumice",
+          "大安區 Alley 71, Lane, Section 4, Zhongxiao East Road, 6號1樓",
+          "14:00–22:00",
+          2.4,
+          ["插座", "戶外座"],
+          "/taipei/cafe-costumice/outdoor.jpg",
+          "https://goo.gl/maps/78PCFLxoiqSvNazU7",
+          310,
+        ],
+        [
+          "books-dream-plaza",
+          "市政府",
+          "博客來 × 星巴克典藏 Dream Plaza",
+          "信義區松高路11號6樓",
+          "24 小時",
+          null,
+          ["書店", "24小時", "不限時"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=博客來 Dream Plaza 台北市信義區松高路11號",
+          200,
+        ],
+        [
+          "cyancafe",
+          "市政府",
+          "Cyan Cafe 小青苑",
+          "信義區基隆路一段147巷29號",
+          "13:00–19:00",
+          4.1,
+          ["WiFi", "安靜", "餐點"],
+          "/taipei/cyancafe/seating1.jpg",
+          "https://g.page/cyancafetw?share",
+          240,
+        ],
+        [
+          "the-lounge-eslite-hotel",
+          "市政府",
+          "The Lounge @ Eslite Hotel",
+          "信義區菸廠路98號",
+          "11:00–20:00",
+          4.1,
+          ["不限時", "WiFi", "安靜"],
+          "/taipei/the-lounge-eslite-hotel/seating.jpg",
+          "https://goo.gl/maps/zCZxere1HZ9jGYn69",
+          500,
+        ],
+        [
+          "treellage-life-cafe",
+          "市政府",
+          "Treellage Life Cafe",
+          "信義區永吉路30巷158弄13號",
+          "09:00–19:00",
+          4.0,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/treellage-life-cafe/seating1.jpg",
+          "https://goo.gl/maps/gMP5rhDeRF158X4y6",
+          340,
+        ],
+        [
+          "justco",
+          "市政府",
+          "JustCo",
+          "信義區 號14-20樓, No., Section 1, Keelung Rd",
+          "08:30–18:00",
+          3.7,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/justco/interior.jpg",
+          "https://goo.gl/maps/ow8fjN5YtTsTSHv29",
+          230,
+        ],
+        [
+          "curista-coffee",
+          "市政府",
+          "CURISTA COFFEE 奎士咖啡",
+          "信義區忠孝東路四段563號一樓",
+          "07:00–22:00",
+          3.7,
+          ["插座", "安靜", "餐點"],
+          "/taipei/curista-coffee/interior.jpg",
+          "https://goo.gl/maps/Kwhmi2yCrAmS89ED6",
+          130,
+        ],
+        [
+          "arthere-cafe-上樓看看",
+          "市政府",
+          "Arthere Cafe (上樓看看)",
+          "信義區忠孝東路五段165巷3弄6號",
+          "11:30–22:30",
+          3.7,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/arthere-cafe-上樓看看/entrance.jpg",
+          "https://goo.gl/maps/SjLL4cgdwDKk8Aat9",
+          380,
+        ],
+        [
+          "stone-workplace",
+          "市政府",
+          "STONE Workplace",
+          "信義區 Section 1, Keelung Rd, 141號2樓",
+          "09:00–18:00",
+          3.6,
+          ["插座", "WiFi", "安靜"],
+          "/taipei/stone-workplace/seating1.jpg",
+          "https://g.page/stoneworkplace?share",
+          240,
+        ],
+        [
+          "starbucks-breeze-nanshan",
+          "市政府",
+          "STARBUCKS Breeze Nanshan",
+          "信義區 Songren Road, 100號2F",
+          "07:30–20:00",
+          3.2,
+          ["WiFi"],
+          "",
+          "https://goo.gl/maps/uC4DLJqzTec7y7NL6",
+          800,
+        ],
+        [
+          "fika-fika-cafe-a13",
+          "市政府",
+          "Fika Fika Cafe A13",
+          "信義區 58號B3, Songren Road",
+          "11:00–21:30",
+          2.8,
+          ["不限時", "餐點", "戶外座"],
+          "/taipei/fika-fika-cafe-a13/interior.jpg",
+          "https://goo.gl/maps/iDBw84rZZhHfnLej6",
+          520,
+        ],
+        [
+          "starbucks-wtc",
+          "市政府",
+          "STARBUCKS Taipei World Trade Center",
+          "信義區信義路五段5號",
+          "07:30–19:00",
+          2.8,
+          ["不限時", "WiFi"],
+          "/taipei/starbucks-wtc/seating1.jpg",
+          "https://goo.gl/maps/zTBY4i7uCPh1Soow9",
+          770,
+        ],
+        [
+          "starbucks-city-hall",
+          "市政府",
+          "Starbucks City Hall",
+          "信義區 Section 5, Zhongxiao East Road, 8號2樓",
+          "07:00–21:30",
+          2.7,
+          ["不限時", "戶外座"],
+          "/taipei/starbucks-city-hall/seating1.jpg",
+          "https://goo.gl/maps/31aMTTWANbhh87Hz8",
+          30,
+        ],
+        [
+          "cafe-banana-coffee-n-crossiant",
+          "市政府",
+          "Cafe Banana Coffee n Croissant 芭娜娜咖啡可頌",
+          "信義區永吉路30巷157弄7號",
+          "09:00–16:30",
+          2.6,
+          ["不限時"],
+          "/taipei/cafe-banana-coffee-n-crossiant/seating1.jpg",
+          "https://goo.gl/maps/P4VikXd2rE9VTspHA",
+          420,
+        ],
+        [
+          "starbucks-bellavita",
+          "市政府",
+          "Starbucks Bellavita",
+          "信義區 B1, No. 28號, Songren Road",
+          "11:00–21:30",
+          1.7,
+          [],
+          "",
+          "https://goo.gl/maps/DwujSHseLpGLDfj39",
+          290,
+        ],
+        [
+          "woodxwhite",
+          "台北車站",
+          "木白甜點咖啡店 (Woodxwhite)",
+          "中正區林森北路9巷23-2號",
+          "12:00–21:00",
+          3.7,
+          ["不限時", "WiFi", "安靜"],
+          "/taipei/woodxwhite/seating1.jpg",
+          "https://goo.gl/maps/ZgxyRG5ojvVGsenV9",
+          850,
+        ],
+        [
+          "notch-cafe-blending",
+          "台北車站",
+          "NOTCH Cafe Blending",
+          "中正區 No. 35號, Section 1, Chongqing South Road",
+          "07:30–20:00",
+          3.7,
+          ["插座", "安靜"],
+          "/taipei/notch-cafe-blending/outside.jpg",
+          "https://goo.gl/maps/v9BzhHtwRGjEPHq47",
+          460,
+        ],
+        [
+          "nearby-cafe",
+          "台北車站",
+          "Nearby Cafe 附近咖啡",
+          "大同區長安西路78巷3弄4-1號",
+          "10:00–00:00",
+          3.6,
+          ["不限時", "WiFi"],
+          "",
+          "https://goo.gl/maps/pYLJ8dG5wsBVeyaK6",
+          320,
+        ],
+        [
+          "oromo-cafe-taipei-station",
+          "台北車站",
+          "OROMO CAFE (Taipei Station)",
+          "中正區 No. 26, Nanyang Street",
+          "10:15–21:00",
+          3.2,
+          ["插座", "餐點", "僅收現金"],
+          "/taipei/oromo-cafe-taipei-station/entrance.jpg",
+          "https://goo.gl/maps/SLURNGrfBpHqCHZo7",
+          390,
+        ],
+        [
+          "library134",
+          "中山區",
+          "CE' & LIB-RARY 遼寧店",
+          "中山區遼寧街134號",
+          "08:00–20:00",
+          4.4,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/library134/inside1.jpg",
+          "https://g.page/LIBRARY134?share",
+          null,
+        ],
+        [
+          "maven-coworking-cafe",
+          "中山區",
+          "Maven Coworking Cafe",
+          "中山區 No.3, Lane, Beian Road",
+          "11:00–17:30",
+          4.2,
+          ["插座", "WiFi"],
+          "/taipei/maven-coworking-cafe/outside.jpg",
+          "https://goo.gl/maps/KXYQjwW7fCE4P2a28",
+          null,
+        ],
+        [
+          "middle-name-cafe",
+          "中山區",
+          "MIDDLE NAME coffee & space",
+          "中山區 No. 10號, Lane 18, Nanjing West Road",
+          "09:00–19:00",
+          4.2,
+          ["插座", "WiFi", "戶外座"],
+          "/taipei/middle-name-cafe/interior4.jpg",
+          "https://goo.gl/maps/fPijhJjyA1uYseWr8",
+          120,
+        ],
+        [
+          "triangle-garden-cafe",
+          "中山區",
+          "Triangle Garden Cafe",
+          "大同區 Taiyuan Road, 131號2樓",
+          "10:00–18:00",
+          3.6,
+          ["不限時", "WiFi", "安靜"],
+          "/taipei/triangle-garden-cafe/seating1.jpg",
+          "https://goo.gl/maps/LbntcCLYHJRKWcHf9",
+          430,
+        ],
+        [
+          "nichi-nichi",
+          "中山區",
+          "Nichi Nichi 日子咖啡",
+          "大同區赤峰街17巷8號",
+          "13:00–19:00",
+          3.6,
+          ["WiFi", "安靜", "餐點"],
+          "/taipei/nichi-nichi/seating1.jpg",
+          "https://goo.gl/maps/RKcfpB3eP73u8Vqr9",
+          130,
+        ],
+        [
+          "libo-cafe",
+          "中山區",
+          "Libo Cafe",
+          "中山區中山北路二段42巷12號",
+          "07:30–19:00",
+          3.4,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/libo-cafe/seating1.jpg",
+          "https://goo.gl/maps/xAM3ZqZxGtU2yBHS7",
+          270,
+        ],
+        [
+          "coquology",
+          "中山區",
+          "COQUOLOGY 料理生活",
+          "中山區 Lane 39, Section 2, Zhongshan N Rd, 3號B2F",
+          "10:00–21:00",
+          3.2,
+          ["不限時", "餐點"],
+          "",
+          "https://goo.gl/maps/YSmNjz6iYkajTcnDA",
+          420,
+        ],
+        [
+          "lapresmidi-zhongshan",
+          "中山區",
+          "L'après Midi Cafe",
+          "中山區中山北路二段16巷10號",
+          "11:00–18:00",
+          3.1,
+          ["不限時", "WiFi", "安靜"],
+          "/taipei/lapresmidi-zhongshan/seating1.jpg",
+          "https://goo.gl/maps/q6mkAi9mVwFPZASr6",
+          140,
+        ],
+        [
+          "hoto-cafe",
+          "中山區",
+          "Hoto Cafe",
+          "中山區 No. 6, Alley 7, Lane 13, Section 1, Nanjing East Road",
+          "12:00–18:30",
+          2.9,
+          ["餐點", "戶外座", "僅收現金"],
+          "/taipei/hoto-cafe/seating3.jpg",
+          "https://goo.gl/maps/zVUhm6mo2muBZvEz8",
+          410,
+        ],
+        [
+          "starbucks-miramar",
+          "中山區",
+          "Starbucks Miramar",
+          "中山區 Jingye 3rd Road, 20號1樓",
+          "08:30–23:00",
+          2.7,
+          ["戶外座"],
+          "",
+          "https://goo.gl/maps/fGTc3G9eG1JH6nPP8",
+          null,
+        ],
+        [
+          "waha-cafe",
+          "雙連",
+          "月霞 Waha Cafe",
+          "大同區赤峰街47巷3號1樓",
+          "11:00–19:00",
+          3.7,
+          ["WiFi", "安靜", "僅收現金"],
+          "/taipei/waha-cafe/seating.jpg",
+          "https://g.page/WahaCafe?share",
+          280,
+        ],
+        [
+          "illumination-books",
+          "雙連",
+          "Illumination Books 浮光書店",
+          "大同區赤峰街47巷18號2樓",
+          "12:00–22:00",
+          3.6,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/illumination-books/seating1.jpg",
+          "https://goo.gl/maps/Fns9HBcTDv3c2kaS9",
+          280,
+        ],
+        [
+          "93-lane-for-people",
+          "忠孝新生",
+          "93 Lane for People",
+          "中山區 No. 2, Lane 93, Songjiang Road",
+          "08:00–20:00",
+          3.9,
+          ["插座", "安靜"],
+          "/taipei/93-lane-for-people/outside.jpg",
+          "https://goo.gl/maps/qKRH3jXj4JQReLCu6",
+          920,
+        ],
+        [
+          "fika-fika-cafe",
+          "忠孝新生",
+          "Fika Fika Cafe",
+          "中山區 No. 33號, Yitong Street",
+          "08:00–20:00",
+          3.6,
+          ["WiFi", "餐點", "戶外座"],
+          "",
+          "https://goo.gl/maps/EJFwTb9JKTB28PsK7",
+          940,
+        ],
+        [
+          "star-rocket-cafe",
+          "忠孝新生",
+          "Star Rocket Café",
+          "中正區 Section 3, Civic Blvd, 2號11樓",
+          "11:00–18:00",
+          3.5,
+          ["插座", "不限時", "安靜"],
+          "/taipei/star-rocket-cafe/seating1.jpg",
+          "https://goo.gl/maps/bfjdv9bgiMShdKVeA",
+          400,
+        ],
+        [
+          "gingin-coffee",
+          "忠孝新生",
+          "GinGin Coffee Company",
+          "中正區 Lane 27, Linyi Street, 9號1樓",
+          "09:00–20:30",
+          2.4,
+          [],
+          "/taipei/gingin-coffee/outside.jpg",
+          "https://goo.gl/maps/gcL1TPMfXxbDCArx8",
+          220,
+        ],
+        [
+          "now-coffee",
+          "北門",
+          "NOW coffee 鬧咖啡",
+          "中正區延平南路58號",
+          "10:00–21:30",
+          4.3,
+          ["插座", "WiFi", "安靜"],
+          "/taipei/now-coffee/seating1.jpg",
+          "https://goo.gl/maps/HyuS54TKx64cWaNS8",
+          430,
+        ],
+        [
+          "mkcrtw",
+          "北門",
+          "MKCR / Mountain Kids Coffee Roaster 山小孩咖啡",
+          "中正區忠孝西路一段126號",
+          "08:00–20:00",
+          4.2,
+          ["不限時", "安靜", "餐點"],
+          "/taipei/mkcrtw/seating1.jpg",
+          "https://goo.gl/maps/XB3gE5BaWsyZ2qb96",
+          230,
+        ],
+        [
+          "citizenm-taipei-north-gate",
+          "北門",
+          "citizenM Taipei North Gate",
+          "中正區中華路一段3號",
+          "24 小時",
+          3.9,
+          ["插座", "不限時", "WiFi"],
+          "/taipei/citizenm-taipei-north-gate/seating1.jpg",
+          "https://goo.gl/maps/cyQRxdSuDS8sFqVt5",
+          230,
+        ],
+        [
+          "do-you-have-coffee-neo",
+          "北門",
+          "Do you have coffee neo cafe 妳有咖啡",
+          "萬華區 Section 2, Wuchang St, 83-9號號 2F",
+          "12:00–21:40",
+          3.2,
+          ["餐點", "寵物友善"],
+          "/taipei/do-you-have-coffee-neo/seating1.jpg",
+          "https://g.page/neocafe2f?share",
+          670,
+        ],
+        [
+          "coffee-club",
+          "北門",
+          "COFFEE CLUB",
+          "中正區忠孝西路一段122號",
+          "08:00–18:00",
+          3.1,
+          ["WiFi", "安靜", "戶外座"],
+          "/taipei/coffee-club/seating1.jpg",
+          "https://g.page/GETCOFFEECLUB?share",
+          230,
+        ],
+        [
+          "coppii-lumii-living-coffee-zhongzheng",
+          "北門",
+          "Coppii Lumii living coffee 冉冉生活(城中)",
+          "中正區永綏街7號",
+          "09:00–17:00",
+          3.0,
+          ["不限時", "餐點"],
+          "",
+          "https://goo.gl/maps/Rnp6PtBmahuXx6oq7",
+          690,
+        ],
+        [
+          "starbucks-hanzhong",
+          "北門",
+          "STARBUCKS HanZhong",
+          "萬華區漢中街51號",
+          "08:00–22:00",
+          2.7,
+          ["WiFi"],
+          "",
+          "https://goo.gl/maps/4vdFggv88CDcM7Fw6",
+          660,
+        ],
+      ];
+
+      /* 來源：cafenomad.tw 網友評分（7 項平均，至少 2 人評分；已排除標示停業的店家），各區挑評分高者共 50 間 */
+      const RAW_NOMAD = [
+        [
+          "cn-99993f3d",
+          "雙連",
+          "Aussie Cafe 澳氏咖啡",
+          "中山區中山北路二段115巷33號",
+          "12:00–21:00",
+          4.5,
+          ["插座", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Aussie%20Cafe%20%E6%BE%B3%E6%B0%8F%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B5115%E5%B7%B733%E8%99%9F",
+          520,
+        ],
+        [
+          "cn-cd77a757",
+          "雙連",
+          "P&C Boutique Cafe",
+          "大同區赤峰街28之4號",
+          "11:00–20:00",
+          5.0,
+          ["插座", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=P%26C%20Boutique%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%B5%A4%E5%B3%B0%E8%A1%9728%E4%B9%8B4%E8%99%9F",
+          170,
+        ],
+        [
+          "cn-e91ad1f3",
+          "雙連",
+          "別所 Shelter",
+          "大同區承德路三段51巷18號",
+          "11:00–23:00",
+          4.0,
+          ["插座", "安靜", "WiFi"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%88%A5%E6%89%80%20Shelter%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B551%E5%B7%B718%E8%99%9F",
+          740,
+        ],
+        [
+          "cn-334624cf",
+          "雙連",
+          "茴香",
+          "中山區中山北路二段59巷2號",
+          "",
+          4.4,
+          ["咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E8%8C%B4%E9%A6%99%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B559%E5%B7%B72%E8%99%9F",
+          340,
+        ],
+        [
+          "cn-0c18bfa9",
+          "雙連",
+          "凱倫咖啡",
+          "中山北路二段65巷2弄5號",
+          "11:00–21:00",
+          4.3,
+          ["插座", "不限時", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%87%B1%E5%80%AB%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B565%E5%B7%B72%E5%BC%845%E8%99%9F",
+          350,
+        ],
+        [
+          "cn-4b78b4a4",
+          "雙連",
+          "W&M workshop",
+          "中山區林森北路487號1樓225室",
+          "12:00–17:30",
+          4.1,
+          ["不限時", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=W%26M%20workshop%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E6%9E%97%E6%A3%AE%E5%8C%97%E8%B7%AF487%E8%99%9F1%E6%A8%93225%E5%AE%A4",
+          720,
+        ],
+        [
+          "cn-a5da00a1",
+          "雙連",
+          "登波咖啡",
+          "大同區赤峰街49巷25號",
+          "11:00–19:00",
+          4.2,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E7%99%BB%E6%B3%A2%E5%92%96%E5%95%A1%20104%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%B5%A4%E5%B3%B0%E8%A1%9749%E5%B7%B725%E8%99%9F",
+          210,
+        ],
+        [
+          "cn-dc2f410d",
+          "雙連",
+          "Doupicks x Freaker coffee",
+          "大同區赤峰街77號",
+          "",
+          4.2,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Doupicks%20x%20Freaker%20coffee%20103%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%B5%A4%E5%B3%B0%E8%A1%9777%E8%99%9F",
+          110,
+        ],
+        [
+          "cn-6420a497",
+          "雙連",
+          "產出The Food",
+          "大同區赤峰街53巷2號",
+          "09:00–18:00",
+          4.0,
+          ["餐點", "WiFi"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E7%94%A2%E5%87%BAThe%20Food%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%B5%A4%E5%B3%B0%E8%A1%9753%E5%B7%B72%E8%99%9F",
+          190,
+        ],
+        [
+          "cn-cce39e97",
+          "雙連",
+          "Rayca Coffee 雷咖咖啡錦西店",
+          "中山區錦西街24號",
+          "07:00–22:00",
+          3.9,
+          ["插座", "不限時", "WiFi"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Rayca%20Coffee%20%E9%9B%B7%E5%92%96%E5%92%96%E5%95%A1%E9%8C%A6%E8%A5%BF%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E9%8C%A6%E8%A5%BF%E8%A1%9724%E8%99%9F",
+          280,
+        ],
+        [
+          "cn-3e1c3f6b",
+          "台北車站",
+          "呷米共食廚房",
+          "中正區衡陽路9號",
+          "11:00–20:00",
+          4.6,
+          ["插座", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%91%B7%E7%B1%B3%E5%85%B1%E9%A3%9F%E5%BB%9A%E6%88%BF%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%A1%A1%E9%99%BD%E8%B7%AF9%E8%99%9F",
+          680,
+        ],
+        [
+          "cn-5b315e80",
+          "台北車站",
+          "壹玖木巷咖啡19 wood alley cafe",
+          "大同區太原路11巷19號1樓",
+          "12:30–19:30",
+          4.7,
+          ["插座", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%A3%B9%E7%8E%96%E6%9C%A8%E5%B7%B7%E5%92%96%E5%95%A119%20wood%20alley%20cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E5%A4%AA%E5%8E%9F%E8%B7%AF11%E5%B7%B719%E8%99%9F1%E6%A8%93",
+          240,
+        ],
+        [
+          "cn-e01eb3e8",
+          "台北車站",
+          "Metro Cafe",
+          "中正區重慶南路一段70號",
+          "10:00–19:00",
+          4.6,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Metro%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%87%8D%E6%85%B6%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B570%E8%99%9F",
+          620,
+        ],
+        [
+          "cn-2303c5c2",
+          "台北車站",
+          "慢動作咖啡館",
+          "中山區中山北路一段33巷20弄6號",
+          "11:30–18:00",
+          4.4,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E6%85%A2%E5%8B%95%E4%BD%9C%E5%92%96%E5%95%A1%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%B8%80%E6%AE%B533%E5%B7%B720%E5%BC%846%E8%99%9F",
+          490,
+        ],
+        [
+          "cn-3f203930",
+          "台北車站",
+          "城西時光plainstay",
+          "大同區鄭州路21巷4號",
+          "10:00–22:00",
+          5.0,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E8%A5%BF%E6%99%82%E5%85%89plainstay%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E9%84%AD%E5%B7%9E%E8%B7%AF21%E5%B7%B74%E8%99%9F",
+          320,
+        ],
+        [
+          "cn-876efc2f",
+          "台北車站",
+          "五咖啡 WOW Coffee",
+          "大同區長安西路198號1樓",
+          "",
+          5.0,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E5%92%96%E5%95%A1%20WOW%20Coffee%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E9%95%B7%E5%AE%89%E8%A5%BF%E8%B7%AF198%E8%99%9F1%E6%A8%93",
+          420,
+        ],
+        [
+          "cn-7accd217",
+          "台北車站",
+          "In Natural Coffee 陽光夏",
+          "中正區衡陽路15號",
+          "",
+          4.8,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=In%20Natural%20Coffee%20%E9%99%BD%E5%85%89%E5%A4%8F%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%A1%A1%E9%99%BD%E8%B7%AF15%E8%99%9F",
+          700,
+        ],
+        [
+          "cn-07709b63",
+          "台北車站",
+          "二會 gojiby",
+          "中山區華陰街21號2樓",
+          "",
+          4.1,
+          ["咖啡好喝", "安靜", "WiFi"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E6%9C%83%20gojiby%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E8%8F%AF%E9%99%B0%E8%A1%9721%E8%99%9F2%E6%A8%93",
+          340,
+        ],
+        [
+          "cn-35e00706",
+          "忠孝新生",
+          "息坐Shizen Coffee",
+          "中正區臨沂街55-3號",
+          "13:00–20:00",
+          5.0,
+          ["插座", "不限時", "咖啡好喝"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E6%81%AF%E5%9D%90Shizen%20Coffee%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%87%A8%E6%B2%82%E8%A1%9755-3%E8%99%9F",
+          600,
+        ],
+        [
+          "cn-126fdedf",
+          "忠孝新生",
+          "漸漸咖啡店",
+          "中正區銅山街3巷2號1樓",
+          "12:00–21:00",
+          4.7,
+          ["插座", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E6%BC%B8%E6%BC%B8%E5%92%96%E5%95%A1%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%8A%85%E5%B1%B1%E8%A1%973%E5%B7%B72%E8%99%9F1%E6%A8%93",
+          710,
+        ],
+        [
+          "cn-65cfdaee",
+          "忠孝新生",
+          "咖啡實驗室Coffee lab",
+          "中正區忠孝東路二段64巷6號",
+          "11:00–20:00",
+          4.3,
+          ["不限時", "安靜", "WiFi"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E5%95%A1%E5%AF%A6%E9%A9%97%E5%AE%A4Coffee%20lab%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E4%BA%8C%E6%AE%B564%E5%B7%B76%E8%99%9F",
+          440,
+        ],
+        [
+          "cn-022e3d53",
+          "忠孝新生",
+          "青鳥",
+          "中山區八德路一段1號",
+          "",
+          4.7,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E9%B3%A5%20%E9%9D%92%E9%B3%A5Bleu%26Book",
+          420,
+        ],
+        [
+          "cn-4551c325",
+          "忠孝新生",
+          "沐樂咖啡 新生店",
+          "中正區臨沂街13巷7號",
+          "11:00–22:00",
+          4.1,
+          ["安靜", "WiFi"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E6%B2%90%E6%A8%82%E5%92%96%E5%95%A1%20%E6%96%B0%E7%94%9F%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%87%A8%E6%B2%82%E8%A1%9713%E5%B7%B77%E8%99%9F",
+          190,
+        ],
+        [
+          "cn-20ffb53f",
+          "忠孝新生",
+          "德佈Debut Cafe 台北店",
+          "中山區新生北路一段15號",
+          "13:00–22:00",
+          4.1,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%BE%B7%E4%BD%88Debut%20Cafe%20%E5%8F%B0%E5%8C%97%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E6%96%B0%E7%94%9F%E5%8C%97%E8%B7%AF%E4%B8%80%E6%AE%B515%E8%99%9F",
+          460,
+        ],
+        [
+          "cn-42d2bbac",
+          "忠孝新生",
+          "HI-HAT COFFEE",
+          "中正區齊東街68號",
+          "",
+          4.6,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=HI-HAT%20COFFEE%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%BD%8A%E6%9D%B1%E8%A1%9768%E8%99%9F",
+          500,
+        ],
+        [
+          "cn-54fbd3b5",
+          "忠孝新生",
+          "Dream cafe 未來咖啡",
+          "中山區松江路362巷22號1樓",
+          "11:00–19:00",
+          4.6,
+          ["插座", "不限時", "咖啡好喝"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Dream%20cafe%20%E6%9C%AA%E4%BE%86%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E6%9D%BE%E6%B1%9F%E8%B7%AF362%E5%B7%B722%E8%99%9F1%E6%A8%93",
+          510,
+        ],
+        [
+          "cn-9b1272f5",
+          "北門",
+          "轉角豆豆咖啡屋-野兔自家烘培咖啡",
+          "迪化街一段32巷9-1號",
+          "11:00–19:00",
+          5.0,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E8%BD%89%E8%A7%92%E8%B1%86%E8%B1%86%E5%92%96%E5%95%A1%E5%B1%8B-%E9%87%8E%E5%85%94%E8%87%AA%E5%AE%B6%E7%83%98%E5%9F%B9%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E8%BF%AA%E5%8C%96%E8%A1%97%E4%B8%80%E6%AE%B532%E5%B7%B79-1%E8%99%9F",
+          580,
+        ],
+        [
+          "cn-1209b7cc",
+          "北門",
+          "小城外珈琲 Caffé CityNorth",
+          "大同區民樂街34號2樓",
+          "12:00–19:00",
+          4.3,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%9F%8E%E5%A4%96%E7%8F%88%E7%90%B2%20Caff%C3%A9%20CityNorth%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%B0%91%E6%A8%82%E8%A1%9734%E8%99%9F2%E6%A8%93",
+          790,
+        ],
+        [
+          "cn-7cf8b0d0",
+          "北門",
+          "蛋黃那一面朝上",
+          "開封街一段67號",
+          "08:30–21:00",
+          4.7,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E8%9B%8B%E9%BB%83%E9%82%A3%E4%B8%80%E9%9D%A2%E6%9C%9D%E4%B8%8A%20%E8%87%BA%E5%8C%97%E5%B8%82%E9%96%8B%E5%B0%81%E8%A1%97%E4%B8%80%E6%AE%B567%E8%99%9F",
+          400,
+        ],
+        [
+          "cn-d5ea0b4d",
+          "北門",
+          "森高砂咖啡館大稻埕店",
+          "延平北路二段1號",
+          "12:00–22:00",
+          4.3,
+          ["插座", "不限時", "咖啡好喝"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E9%AB%98%E7%A0%82%E5%92%96%E5%95%A1%E9%A4%A8%E5%A4%A7%E7%A8%BB%E5%9F%95%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%BB%B6%E5%B9%B3%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B51%E8%99%9F",
+          550,
+        ],
+        [
+          "cn-c6aefd3f",
+          "北門",
+          "Provider -Dry Goods & Coffee-",
+          "萬華區漢口街二段105號",
+          "12:00–21:00",
+          4.5,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Provider%20-Dry%20Goods%20%26%20Coffee-%20%E5%8F%B0%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%BC%A2%E5%8F%A3%E8%A1%97%E4%BA%8C%E6%AE%B5105%E8%99%9F",
+          680,
+        ],
+        [
+          "cn-4fd9c210",
+          "北門",
+          "幻猻家珈琲 Pallas Cafe",
+          "大同區迪化街一段14巷14號",
+          "10:00–18:00",
+          4.2,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%B9%BB%E7%8C%BB%E5%AE%B6%E7%8F%88%E7%90%B2%20Pallas%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E8%BF%AA%E5%8C%96%E8%A1%97%E4%B8%80%E6%AE%B514%E5%B7%B714%E8%99%9F",
+          530,
+        ],
+        [
+          "cn-438711ac",
+          "中山區",
+          "黑露咖啡館OLO Coffee Roasters",
+          "大同區南京西路18巷26-2號",
+          "12:00–00:00",
+          4.6,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E9%9C%B2%E5%92%96%E5%95%A1%E9%A4%A8OLO%20Coffee%20Roasters%20103%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF18%E5%B7%B726-2%E8%99%9F",
+          210,
+        ],
+        [
+          "cn-6e3de3f9",
+          "中山區",
+          "1+1 Together Republic Cafe",
+          "中山區中山北路二段26巷10-1號",
+          "12:00–21:30",
+          4.4,
+          ["插座", "不限時", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=1%2B1%20Together%20Republic%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF%E4%BA%8C%E6%AE%B526%E5%B7%B710-1%E8%99%9F",
+          200,
+        ],
+        [
+          "cn-6dc96fc7",
+          "中山區",
+          "貓妝自家烘焙咖啡館",
+          "大同區長安西路64號",
+          "09:00–20:30",
+          4.4,
+          ["插座", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E5%A6%9D%E8%87%AA%E5%AE%B6%E7%83%98%E7%84%99%E5%92%96%E5%95%A1%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E9%95%B7%E5%AE%89%E8%A5%BF%E8%B7%AF64%E8%99%9F",
+          280,
+        ],
+        [
+          "cn-ba870a83",
+          "中山區",
+          "Hera Cafe",
+          "大同區承德路二段一巷7號",
+          "12:00–20:00",
+          4.4,
+          ["插座", "不限時", "咖啡好喝"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Hera%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%BA%8C%E6%AE%B5%E4%B8%80%E5%B7%B77%E8%99%9F",
+          220,
+        ],
+        [
+          "cn-9b068507",
+          "中山區",
+          "MOJO 1921",
+          "大同區長安西路39號 當代藝術館右側門",
+          "10:00–20:00",
+          4.7,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=MOJO%201921%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E9%95%B7%E5%AE%89%E8%A5%BF%E8%B7%AF39%E8%99%9F",
+          250,
+        ],
+        [
+          "cn-c4fac270",
+          "忠孝復興",
+          "Kafemera 卡菲米朗精品咖啡館",
+          "大安路一段175巷11號",
+          "08:00–18:30",
+          4.5,
+          ["咖啡好喝", "安靜", "WiFi"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Kafemera%20%E5%8D%A1%E8%8F%B2%E7%B1%B3%E6%9C%97%E7%B2%BE%E5%93%81%E5%92%96%E5%95%A1%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B5175%E5%B7%B711%E8%99%9F",
+          650,
+        ],
+        [
+          "cn-12cedd32",
+          "忠孝復興",
+          "晴境易得",
+          "忠孝東路三段217巷2弄5號",
+          "10:45–19:00",
+          4.5,
+          ["不限時", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E6%99%B4%E5%A2%83%E6%98%93%E5%BE%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5217%E5%B7%B72%E5%BC%845%E8%99%9F",
+          380,
+        ],
+        [
+          "cn-d7484ea0",
+          "忠孝復興",
+          "Balance caf'e 平衡點咖啡",
+          "中山區八德路二段300巷56號",
+          "11:00–20:30",
+          4.4,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Balance%20caf%27e%20%E5%B9%B3%E8%A1%A1%E9%BB%9E%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%85%AB%E5%BE%B7%E8%B7%AF%E4%BA%8C%E6%AE%B5300%E5%B7%B756%E8%99%9F",
+          470,
+        ],
+        [
+          "cn-2da71fb6",
+          "忠孝復興",
+          "Keystone Coffee Roasters",
+          "中山區八德路二段267巷19號1樓",
+          "08:00–19:00",
+          4.8,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Keystone%20Coffee%20Roasters%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%85%AB%E5%BE%B7%E8%B7%AF%E4%BA%8C%E6%AE%B5267%E5%B7%B719%E8%99%9F1%E6%A8%93",
+          710,
+        ],
+        [
+          "cn-7eb8a4e5",
+          "忠孝復興",
+          "溫和藍咖啡 (Gentle Blue)",
+          "松山區長安東路二段288號",
+          "",
+          4.8,
+          ["咖啡好喝", "安靜", "平價"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E6%BA%AB%E5%92%8C%E8%97%8D%E5%92%96%E5%95%A1%20%28Gentle%20Blue%29%20%E5%8F%B0%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E9%95%B7%E5%AE%89%E6%9D%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5288%E8%99%9F",
+          740,
+        ],
+        [
+          "cn-be5e5cdc",
+          "市政府",
+          "佐料咖啡",
+          "信義區永吉路120巷81弄2號",
+          "12:00–19:00",
+          4.9,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E6%96%99%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E6%B0%B8%E5%90%89%E8%B7%AF120%E5%B7%B781%E5%BC%842%E8%99%9F",
+          550,
+        ],
+        [
+          "cn-f814b75c",
+          "市政府",
+          "We & Me cafe",
+          "信義區基隆路一段188-2號",
+          "10:00–22:00",
+          4.9,
+          ["咖啡好喝", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=We%20%26%20Me%20cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E5%9F%BA%E9%9A%86%E8%B7%AF%E4%B8%80%E6%AE%B5188-2%E8%99%9F",
+          130,
+        ],
+        [
+          "cn-77928b2d",
+          "市政府",
+          "Out of office 不在辦公室",
+          "忠孝東路五段之17號之3B1",
+          "10:00–22:00",
+          4.3,
+          ["插座", "不限時", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=Out%20of%20office%20%E4%B8%8D%E5%9C%A8%E8%BE%A6%E5%85%AC%E5%AE%A4%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E4%BA%94%E6%AE%B5%E4%B9%8B17%E8%99%9F%E4%B9%8B3B1",
+          50,
+        ],
+        [
+          "cn-c34689b6",
+          "市政府",
+          "七三茶堂 7teahouse",
+          "信義區忠孝東路四段553巷46弄16號",
+          "",
+          4.4,
+          ["安靜", "餐點", "WiFi"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E4%B8%89%E8%8C%B6%E5%A0%82%207teahouse%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E5%9B%9B%E6%AE%B5553%E5%B7%B746%E5%BC%8416%E8%99%9F",
+          390,
+        ],
+        [
+          "cn-663308f0",
+          "忠孝敦化",
+          "走咖啡 Gofor Cafe",
+          "大安區大安路一段51巷33號1樓",
+          "12:00–22:00",
+          4.8,
+          ["插座", "不限時", "咖啡好喝"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E8%B5%B0%E5%92%96%E5%95%A1%20Gofor%20Cafe%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%A4%A7%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B551%E5%B7%B733%E8%99%9F1%E6%A8%93",
+          390,
+        ],
+        [
+          "cn-f01c5f46",
+          "忠孝敦化",
+          "CAFEPRO敦化店",
+          "松山區八德路三段12巷52弄13號",
+          "09:00–21:00",
+          4.6,
+          ["不限時", "咖啡好喝", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=CAFEPRO%E6%95%A6%E5%8C%96%E5%BA%97%20105%E5%8F%B0%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E5%85%AB%E5%BE%B7%E8%B7%AF%E4%B8%89%E6%AE%B512%E5%B7%B752%E5%BC%8413%E8%99%9F",
+          520,
+        ],
+        [
+          "cn-6d20c0c8",
+          "忠孝敦化",
+          "James House",
+          "大安區安和路一段127巷5號",
+          "13:30–00:00",
+          4.2,
+          ["插座", "不限時", "安靜"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=James%20House%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%AE%89%E5%92%8C%E8%B7%AF%E4%B8%80%E6%AE%B5127%E5%B7%B75%E8%99%9F",
+          770,
+        ],
+        [
+          "cn-3de7409f",
+          "忠孝敦化",
+          "咖啡瑪榭忠孝店",
+          "大安區敦化南路一段233巷62號",
+          "08:30–22:00",
+          4.2,
+          ["插座", "安靜", "餐點"],
+          "",
+          "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E5%95%A1%E7%91%AA%E6%A6%AD%E5%BF%A0%E5%AD%9D%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%95%A6%E5%8C%96%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5233%E5%B7%B762%E8%99%9F",
+          200,
+        ],
+      ];
+      const IMG_BASE = "https://cafeandcowork.com";
+
+      const CAFES = [...RAW, ...RAW_NOMAD]
+        .sort(
+          (a, b) =>
+            AREAS.indexOf(a[1]) - AREAS.indexOf(b[1]) ||
+            (b[5] ?? 0) - (a[5] ?? 0),
+        )
+        .map((r, i) => ({
+          id: r[0],
+          area: r[1],
+          name: r[2],
+          addr: r[3],
+          hours: r[4],
+          rating: r[5],
+          tags: r[6],
+          img: r[7] ? IMG_BASE + encodeURI(r[7]) : "",
+          map: r[8],
+          dist: r[9],
+          seed: i,
+        }));
+
+      const PER_PAGE = 15;
+      const STORE_KEY = "cafe-favs-v1";
+
+      /* ===== 狀態 ===== */
+      const state = {
+        tab: "search",
+        area: "全部",
+        q: "",
+        page: 1,
+        favArea: "全部",
+        favPage: 1,
+        favs: new Set(),
+      };
+      try {
+        const s = JSON.parse(localStorage.getItem(STORE_KEY) || "[]");
+        if (Array.isArray(s))
+          state.favs = new Set(
+            s.filter((id) => CAFES.some((c) => c.id === id)),
+          );
+      } catch (e) {}
+      const PHOTO_KEY = "cafe-photos-v1";
+      let photos = {};
+      try {
+        const s = JSON.parse(localStorage.getItem(PHOTO_KEY) || "{}");
+        if (s && typeof s === "object") photos = s;
+      } catch (e) {}
+      function savePhotos() {
+        try {
+          localStorage.setItem(PHOTO_KEY, JSON.stringify(photos));
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+      /* 預設封面：店名為示意，先用咖啡廳主題照片（Unsplash）；換成真實店家後，在 RAW 第 6 欄填入店家照片網址即可 */
+      const STOCK = [
+        "1501339847302-ac426a4a7cbb",
+        "1554118811-1e0d58224f24",
+        "1495474472287-4d71bcdd2085",
+        "1509042239860-f550ce710b93",
+        "1442512595331-e89e73853f31",
+        "1453614512568-c4024d13c247",
+        "1521017432531-fbd92d768814",
+        "1445116572660-236099ec97a0",
+        "1559925393-8be0ec4767c8",
+        "1511920170033-f8396924c348",
+        "1497935586351-b67a49e012bf",
+        "1514432324607-a09d9b4aefdd",
+        "1461023058943-07fcbe16d735",
+        "1447933601403-0c6688de566e",
+        "1498804103079-a6351b050096",
+        "1525610553991-2bede1a236e2",
+        "1600093463592-8e36ae95ef56",
+        "1559496417-e7f25cb247f3",
+        "1507133750040-4a8f57021571",
+        "1534040385115-33dcb3acba5b",
+        "1493857671505-72967e2e2760",
+        "1517701604599-bb29b565090c",
+        "1513267048331-5611cad62e41",
+        "1556742049-0cfed4f6a45d",
+      ];
+      function autoImg(c) {
+        return `https://images.unsplash.com/photo-${STOCK[(c.seed * 7) % STOCK.length]}?w=480&h=408&fit=crop&q=70`;
+      }
+      function imgOf(c) {
+        return photos[c.id] || c.img || autoImg(c);
+      }
+      let failNotified = false;
+      document.addEventListener(
+        "error",
+        (e) => {
+          const img = e.target;
+          if (!(img instanceof HTMLImageElement) || !img.dataset.fallback)
+            return;
+          const c = CAFES.find((x) => x.id === img.dataset.fallback);
+          if (!c) return;
+          img.insertAdjacentHTML("afterend", cover(c));
+          img.remove();
+          if (!failNotified) {
+            failNotified = true;
+            toast("部分店家圖片無法載入，先顯示插畫");
+          }
+        },
+        true,
+      );
+      function saveFavs() {
+        try {
+          localStorage.setItem(STORE_KEY, JSON.stringify([...state.favs]));
+        } catch (e) {}
+      }
+
+      /* ===== 封面插畫 ===== */
+      const PALETTES = [
+        ["#c98f4a", "#6b4226", "#f5e6cf"],
+        ["#8a5a3b", "#3b2418", "#efd9bc"],
+        ["#d7b48a", "#7a4b2d", "#fff4e2"],
+        ["#a8693c", "#2e1f16", "#f2dcc0"],
+        ["#6f8a64", "#3d2a1d", "#efe4cc"],
+        ["#b9573f", "#3b2418", "#f7e3cf"],
+        ["#4f6b78", "#2e1f16", "#efe2cf"],
+        ["#c7a26b", "#5a3a27", "#fff2dc"],
+      ];
+      function cover(c) {
+        const p = PALETTES[c.seed % PALETTES.length];
+        const v = c.seed % 4,
+          s = c.seed;
+        const ch = c.name.charAt(0);
+        const dots = Array.from({ length: 14 }, (_, k) => {
+          const x = (s * 37 + k * 53) % 200,
+            y = (s * 23 + k * 71) % 120;
+          return `<circle cx="${x}" cy="${y}" r="${1.4 + (k % 3)}" fill="${p[2]}" opacity=".35"/>`;
+        }).join("");
+        let art = "";
+        if (v === 0) {
+          // 杯子正面
+          art = `<path d="M62 92h66l-7 52a8 8 0 0 1-8 7H77a8 8 0 0 1-8-7z" fill="${p[2]}" stroke="#2e1f16" stroke-width="3"/>
+      <path d="M128 102c16 0 16 26 0 26" fill="none" stroke="#2e1f16" stroke-width="3"/>
+      <ellipse cx="95" cy="92" rx="33" ry="7" fill="${p[1]}" stroke="#2e1f16" stroke-width="3"/>
+      <path d="M85 80c-6-8 6-12 0-22M100 80c-6-8 6-12 0-22" fill="none" stroke="${p[2]}" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="95" cy="156" rx="48" ry="6" fill="#2e1f16" opacity=".25"/>`;
+        } else if (v === 1) {
+          // 俯視拉花
+          art = `<circle cx="100" cy="102" r="50" fill="${p[2]}" stroke="#2e1f16" stroke-width="3"/>
+      <circle cx="100" cy="102" r="36" fill="${p[1]}" stroke="#2e1f16" stroke-width="3"/>
+      <path d="M100 120c-18-12-20-26-10-30 5-2 9 1 10 5 1-4 5-7 10-5 10 4 8 18-10 30z" fill="${p[2]}"/>
+      <path d="M150 102c14 0 14 18 0 18" fill="none" stroke="#2e1f16" stroke-width="3"/>`;
+        } else if (v === 2) {
+          // 手沖壺
+          art = `<path d="M70 70h60l-30 40z" fill="${p[2]}" stroke="#2e1f16" stroke-width="3" stroke-linejoin="round"/>
+      <rect x="72" y="112" width="56" height="40" rx="8" fill="${p[1]}" stroke="#2e1f16" stroke-width="3" opacity=".95"/>
+      <path d="M100 110v8" stroke="${p[1]}" stroke-width="4" stroke-linecap="round"/>
+      <path d="M78 128h44" stroke="${p[2]}" stroke-width="2.5" opacity=".6"/>`;
+        } else {
+          // 店門口
+          art = `<rect x="56" y="78" width="88" height="74" fill="${p[2]}" stroke="#2e1f16" stroke-width="3"/>
+      <path d="M50 78h100l-8-18H58z" fill="${p[1]}" stroke="#2e1f16" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M62 60v18M78 60v18M94 60v18M110 60v18M126 60v18M142 60v18" stroke="${p[2]}" stroke-width="4" opacity=".7"/>
+      <rect x="88" y="104" width="24" height="48" fill="${p[1]}" stroke="#2e1f16" stroke-width="3"/>
+      <rect x="64" y="96" width="18" height="20" fill="#fff8ec" stroke="#2e1f16" stroke-width="2.5"/>
+      <rect x="118" y="96" width="18" height="20" fill="#fff8ec" stroke="#2e1f16" stroke-width="2.5"/>`;
+        }
+        return `<svg viewBox="0 0 200 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <rect width="200" height="170" fill="${p[0]}"/>${dots}
+    <text x="172" y="44" text-anchor="middle" font-family="jf-openhuninn,sans-serif" font-size="34" font-weight="700" fill="${p[1]}" opacity=".55">${ch}</text>
+    ${art}</svg>`;
+      }
+
+      /* ===== 卡片 ===== */
+      const heartIcon = `<i class="bi bi-heart" aria-hidden="true"></i><i class="bi bi-heart-fill" aria-hidden="true"></i>`;
+      function esc(s) {
+        return String(s).replace(
+          /[&<>"]/g,
+          (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[m],
+        );
+      }
+      function card(c) {
+        const on = state.favs.has(c.id);
+        const map =
+          c.map ||
+          "https://www.google.com/maps/search/?api=1&query=" +
+            encodeURIComponent("台北市 " + c.addr + " " + c.name);
+        return `<article class="card">
+    <span class="pin" aria-hidden="true"></span>
+    <div class="cover" data-cover="${c.id}">${imgOf(c) ? `<img src="${esc(imgOf(c))}" alt="${esc(c.name)} 店家照片" loading="lazy" referrerpolicy="no-referrer" data-fallback="${c.id}">` : cover(c)}
+      <button class="photo-btn" data-photo="${c.id}" aria-label="設定 ${esc(c.name)} 的圖片">
+        <i class="bi bi-camera" aria-hidden="true"></i>
+      </button>
+      <span class="badge">${esc(c.area)}${c.dist ? ` · ${c.dist}m` : ""}</span>
+      <button class="fav" data-id="${c.id}" aria-pressed="${on}" aria-label="${on ? "取消收藏" : "加入收藏"} ${esc(c.name)}">${heartIcon}</button>
+    </div>
+    <div class="body">
+      <h3 class="name">${esc(c.name)}</h3>
+      <p class="addr"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i>${esc(c.addr)}</p>
+      <div class="tags">${c.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+      <a class="btn" href="${esc(map)}" target="_blank" rel="noopener">
+        <i class="bi bi-map" aria-hidden="true"></i>查看地圖</a>
+      <div class="meta"><span><i class="bi bi-star-fill" aria-hidden="true"></i> ${c.rating ? c.rating.toFixed(1) : "—"}</span><span>${esc(c.hours || "營業時間未知")}</span></div>
+      <div class="bar" role="img" aria-label="${c.rating ? `評分 ${c.rating} / 5` : "尚無評分"}"><i style="width:${((c.rating || 0) / 5) * 100}%"></i></div>
+    </div>
+  </article>`;
+      }
+
+      /* ===== 分頁 ===== */
+      function pager(el, total, page, onGo) {
+        const pages = Math.max(1, Math.ceil(total / PER_PAGE));
+        if (total <= PER_PAGE) {
+          el.innerHTML = "";
+          return;
+        }
+        let h = `<button data-p="${page - 1}" ${page <= 1 ? "disabled" : ""} aria-label="上一頁">‹</button>`;
+        for (let i = 1; i <= pages; i++) {
+          if (pages > 7 && i !== 1 && i !== pages && Math.abs(i - page) > 1) {
+            if (i === 2 || i === pages - 1)
+              h += `<span aria-hidden="true">…</span>`;
+            continue;
+          }
+          h += `<button data-p="${i}" ${i === page ? 'aria-current="page"' : ""}>${i}</button>`;
+        }
+        h += `<button data-p="${page + 1}" ${page >= pages ? "disabled" : ""} aria-label="下一頁">›</button>`;
+        el.innerHTML = h;
+        el.onclick = (e) => {
+          const b = e.target.closest("button[data-p]");
+          if (!b || b.disabled) return;
+          onGo(+b.dataset.p);
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+      }
+
+      /* ===== Chips ===== */
+      function chips(el, current, counts, onPick) {
+        el.innerHTML = ["全部", ...AREAS]
+          .map((a) => {
+            const n = counts ? ` ${counts[a] ?? 0}` : "";
+            return `<button class="chip" data-a="${a}" aria-pressed="${a === current}">${a}${counts ? `<span style="opacity:.7">${n}</span>` : ""}</button>`;
+          })
+          .join("");
+        el.onclick = (e) => {
+          const b = e.target.closest(".chip");
+          if (b) onPick(b.dataset.a);
+        };
+        if (!el._rail) initRail(el);
+        const act = el.querySelector('[aria-pressed="true"]');
+        if (
+          act &&
+          (act.offsetLeft < el.scrollLeft ||
+            act.offsetLeft + act.offsetWidth > el.scrollLeft + el.clientWidth)
+        )
+          el.scrollTo({
+            left: act.offsetLeft - (el.clientWidth - act.offsetWidth) / 2,
+            behavior: "smooth",
+          });
+        requestAnimationFrame(el._rail);
+      }
+
+      /* 區域列：可左右滑動（觸控滑、滑鼠拖曳、滾輪、左右箭頭） */
+      function initRail(el) {
+        const rail = el.parentElement;
+        const upd = () => {
+          const max = el.scrollWidth - el.clientWidth;
+          rail.classList.toggle("can-l", el.scrollLeft > 2);
+          rail.classList.toggle("can-r", el.scrollLeft < max - 2);
+        };
+        el._rail = upd;
+        el.addEventListener("scroll", upd, { passive: true });
+        window.addEventListener("resize", upd);
+        el.addEventListener(
+          "wheel",
+          (e) => {
+            if (
+              el.scrollWidth <= el.clientWidth ||
+              Math.abs(e.deltaX) > Math.abs(e.deltaY)
+            )
+              return;
+            e.preventDefault();
+            el.scrollLeft += e.deltaY;
+          },
+          { passive: false },
+        );
+        let down = null,
+          moved = false;
+        el.addEventListener("pointerdown", (e) => {
+          if (e.pointerType !== "mouse" || e.button !== 0) return;
+          down = { x: e.clientX, left: el.scrollLeft };
+          moved = false;
+        });
+        el.addEventListener("pointermove", (e) => {
+          if (!down) return;
+          const dx = e.clientX - down.x;
+          if (!moved && Math.abs(dx) > 5) {
+            moved = true;
+            el.classList.add("dragging");
+            el.setPointerCapture(e.pointerId);
+          }
+          if (moved) el.scrollLeft = down.left - dx;
+        });
+        const end = () => {
+          down = null;
+          el.classList.remove("dragging");
+        };
+        el.addEventListener("pointerup", end);
+        el.addEventListener("pointercancel", end);
+        el.addEventListener(
+          "click",
+          (e) => {
+            if (moved) {
+              e.stopImmediatePropagation();
+              e.preventDefault();
+              moved = false;
+            }
+          },
+          true,
+        );
+        rail.querySelectorAll(".rail-btn").forEach((b) =>
+          b.addEventListener("click", () => {
+            el.scrollBy({
+              left: +b.dataset.dir * el.clientWidth * 0.6,
+              behavior: "smooth",
+            });
+          }),
+        );
+      }
+
+      /* ===== 渲染：查詢 ===== */
+      function filterSearch() {
+        const q = state.q.trim().toLowerCase();
+        return CAFES.filter((c) => {
+          if (state.area !== "全部" && c.area !== state.area) return false;
+          if (!q) return true;
+          return (c.name + c.addr + c.area + c.tags.join(""))
+            .toLowerCase()
+            .includes(q);
+        });
+      }
+      function renderSearch() {
+        chips(document.getElementById("areaChips"), state.area, null, (a) => {
+          state.area = a;
+          state.page = 1;
+          renderSearch();
+        });
+        const list = filterSearch();
+        const pages = Math.max(1, Math.ceil(list.length / PER_PAGE));
+        state.page = Math.min(state.page, pages);
+        const slice = list.slice(
+          (state.page - 1) * PER_PAGE,
+          state.page * PER_PAGE,
+        );
+        document.getElementById("searchGrid").innerHTML = slice
+          .map(card)
+          .join("");
+        document.getElementById("resultCount").innerHTML =
+          `共 <strong>${list.length}</strong> 間咖啡廳`;
+        document.getElementById("pageInfo").textContent = list.length
+          ? `第 ${state.page} / ${pages} 頁`
+          : "";
+        document.getElementById("searchEmpty").innerHTML = list.length
+          ? ""
+          : `<div class="empty"><i class="bi bi-cup-hot big" aria-hidden="true"></i><h2>找不到符合的咖啡廳</h2><p>換個關鍵字，或把區域切回「全部」再試一次。</p><button class="go" data-reset>清除條件</button></div>`;
+        pager(
+          document.getElementById("searchPager"),
+          list.length,
+          state.page,
+          (p) => {
+            state.page = p;
+            renderSearch();
+          },
+        );
+      }
+
+      /* ===== 渲染：收藏 ===== */
+      function renderFav() {
+        const all = CAFES.filter((c) => state.favs.has(c.id));
+        const counts = { 全部: all.length };
+        AREAS.forEach(
+          (a) => (counts[a] = all.filter((c) => c.area === a).length),
+        );
+        const chipEl = document.getElementById("favChips");
+        if (all.length) {
+          chips(chipEl, state.favArea, counts, (a) => {
+            state.favArea = a;
+            state.favPage = 1;
+            renderFav();
+          });
+          chipEl.classList.remove("hidden");
+        } else chipEl.classList.add("hidden");
+        const list =
+          state.favArea === "全部"
+            ? all
+            : all.filter((c) => c.area === state.favArea);
+        const pages = Math.max(1, Math.ceil(list.length / PER_PAGE));
+        state.favPage = Math.min(state.favPage, pages);
+        document.getElementById("favGrid").innerHTML = list
+          .slice((state.favPage - 1) * PER_PAGE, state.favPage * PER_PAGE)
+          .map(card)
+          .join("");
+        document.getElementById("favCount").innerHTML = all.length
+          ? `已收藏 <strong>${all.length}</strong> 間`
+          : "";
+        document.getElementById("favPageInfo").textContent =
+          list.length > PER_PAGE ? `第 ${state.favPage} / ${pages} 頁` : "";
+        document.getElementById("favEmpty").innerHTML = all.length
+          ? list.length
+            ? ""
+            : `<div class="empty"><h2>這個區域還沒有收藏</h2><p>切換到其他區域看看。</p></div>`
+          : `<div class="empty"><i class="bi bi-bookmark-heart big" aria-hidden="true"></i><h2>收藏簿還是空的</h2><p>在查詢頁點卡片右上角的愛心，<br>喜歡的咖啡廳就會收進這裡。</p><button class="go" data-tab-go="search">去丐幫找咖啡廳</button></div>`;
+        pager(
+          document.getElementById("favPager"),
+          list.length,
+          state.favPage,
+          (p) => {
+            state.favPage = p;
+            renderFav();
+          },
+        );
+      }
+
+      function updateBadge() {
+        const b = document.getElementById("favBadge");
+        const n = state.favs.size;
+        b.textContent = n > 99 ? "99+" : n;
+        b.classList.toggle("hidden", !n);
+      }
+
+      /* ===== 切換分頁 ===== */
+      function setTab(t) {
+        state.tab = t;
+        document.querySelectorAll(".tab").forEach((b) => {
+          if (b.dataset.tab === t) b.setAttribute("aria-current", "page");
+          else b.removeAttribute("aria-current");
+        });
+        document
+          .getElementById("viewSearch")
+          .classList.toggle("hidden", t !== "search");
+        document
+          .getElementById("viewFav")
+          .classList.toggle("hidden", t !== "fav");
+        const title = document.getElementById("pageTitle");
+        title.firstChild.nodeValue = t === "search" ? "丐幫找咖啡" : "我的收藏";
+        document.getElementById("pageSub").textContent =
+          t === "search"
+            ? `台北市 · 8 個捷運生活圈 · ${CAFES.length} 間`
+            : "想再去一次的那幾間";
+        t === "search" ? renderSearch() : renderFav();
+        window.scrollTo({ top: 0 });
+      }
+
+      /* ===== Toast ===== */
+      let tt;
+      function toast(msg) {
+        const el = document.getElementById("toast");
+        el.textContent = msg;
+        el.classList.add("show");
+        clearTimeout(tt);
+        tt = setTimeout(() => el.classList.remove("show"), 1600);
+      }
+
+      /* ===== 事件 ===== */
+      /* ===== 店家圖片 ===== */
+      const photoInput = document.getElementById("photoInput"),
+        sheet = document.getElementById("sheet");
+      let photoTarget = null;
+      function compress(file) {
+        return new Promise((res, rej) => {
+          const url = URL.createObjectURL(file),
+            img = new Image();
+          img.onload = () => {
+            const max = 520,
+              r = Math.min(1, max / Math.max(img.width, img.height));
+            const cv = document.createElement("canvas");
+            cv.width = Math.round(img.width * r);
+            cv.height = Math.round(img.height * r);
+            cv.getContext("2d").drawImage(img, 0, 0, cv.width, cv.height);
+            URL.revokeObjectURL(url);
+            res(cv.toDataURL("image/jpeg", 0.72));
+          };
+          img.onerror = () => {
+            URL.revokeObjectURL(url);
+            rej();
+          };
+          img.src = url;
+        });
+      }
+      function rerender() {
+        state.tab === "fav" ? renderFav() : renderSearch();
+      }
+      const urlInput = document.getElementById("urlInput"),
+        urlHint = document.getElementById("urlHint");
+      function openSheet(id) {
+        photoTarget = id;
+        const c = CAFES.find((x) => x.id === id);
+        document.getElementById("sheetSub").textContent = c.name;
+        const cur = photos[id] || "";
+        urlInput.value = cur.startsWith("http") ? cur : "";
+        urlHint.textContent = "";
+        document
+          .getElementById("removeBtn")
+          .classList.toggle("hidden", !photos[id]);
+        sheet.classList.remove("hidden");
+        sheet.querySelector(".primary").focus();
+      }
+      function applyUrl() {
+        const v = urlInput.value.trim();
+        let u;
+        try {
+          u = new URL(v);
+        } catch (e) {
+          urlHint.textContent = "請貼上完整網址，開頭是 https://";
+          return;
+        }
+        if (!/^https?:$/.test(u.protocol)) {
+          urlHint.textContent = "只支援 http 或 https 開頭的網址";
+          return;
+        }
+        urlHint.textContent = "檢查圖片中…";
+        const test = new Image();
+        test.onload = () => {
+          photos[photoTarget] = u.href;
+          savePhotos();
+          closeSheet();
+          rerender();
+          toast("已套用圖片網址");
+        };
+        test.onerror = () => {
+          urlHint.textContent =
+            "這個網址的圖片載入不了。可能不是圖片直連（要 .jpg/.png 那種），或目前環境擋了外部圖片，改用上傳就一定可以。";
+        };
+        test.referrerPolicy = "no-referrer";
+        test.src = u.href;
+      }
+      urlInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          applyUrl();
+        }
+      });
+      function closeSheet() {
+        sheet.classList.add("hidden");
+      }
+      sheet.addEventListener("click", (e) => {
+        if (e.target === sheet) {
+          closeSheet();
+          return;
+        }
+        const b = e.target.closest("[data-sheet]");
+        if (!b) return;
+        const act = b.dataset.sheet;
+        if (act === "url") {
+          applyUrl();
+          return;
+        }
+        closeSheet();
+        if (act === "replace") photoInput.click();
+        if (act === "remove") {
+          delete photos[photoTarget];
+          savePhotos();
+          rerender();
+          toast("已移除圖片");
+        }
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && !sheet.classList.contains("hidden"))
+          closeSheet();
+      });
+      photoInput.addEventListener("change", async () => {
+        const file = photoInput.files[0];
+        photoInput.value = "";
+        if (!file || !photoTarget) return;
+        if (!file.type.startsWith("image/")) {
+          toast("請選擇圖片檔");
+          return;
+        }
+        const coverEl = document.querySelector(`[data-cover="${photoTarget}"]`);
+        if (coverEl)
+          coverEl.insertAdjacentHTML(
+            "beforeend",
+            `<div class="loading-photo">處理中…</div>`,
+          );
+        try {
+          const data = await compress(file);
+          const prev = photos[photoTarget];
+          photos[photoTarget] = data;
+          if (!savePhotos()) {
+            if (prev) photos[photoTarget] = prev;
+            else delete photos[photoTarget];
+            toast("儲存空間已滿，請先移除幾張圖片");
+          } else toast("已更新圖片");
+        } catch (e) {
+          toast("這張圖片無法讀取，請換一張");
+        }
+        rerender();
+      });
+
+      document.addEventListener("click", (e) => {
+        const pb = e.target.closest(".photo-btn");
+        if (pb) {
+          openSheet(pb.dataset.photo);
+          return;
+        }
+        const f = e.target.closest(".fav");
+        if (f) {
+          const id = f.dataset.id,
+            c = CAFES.find((x) => x.id === id);
+          if (state.favs.has(id)) {
+            state.favs.delete(id);
+            toast(`已取消收藏「${c.name}」`);
+          } else {
+            state.favs.add(id);
+            toast(`已加入收藏「${c.name}」`);
+          }
+          saveFavs();
+          updateBadge();
+          if (state.tab === "fav") {
+            renderFav();
+          } else {
+            const on = state.favs.has(id);
+            f.setAttribute("aria-pressed", on);
+            f.setAttribute(
+              "aria-label",
+              (on ? "取消收藏 " : "加入收藏 ") + c.name,
+            );
+            f.classList.remove("pop");
+            void f.offsetWidth;
+            f.classList.add("pop");
+          }
+          return;
+        }
+        const tab = e.target.closest(".tab");
+        if (tab) {
+          setTab(tab.dataset.tab);
+          return;
+        }
+        const go = e.target.closest("[data-tab-go]");
+        if (go) {
+          setTab(go.dataset.tabGo);
+          return;
+        }
+        if (e.target.closest("[data-reset]")) {
+          state.q = "";
+          state.area = "全部";
+          state.page = 1;
+          qEl.value = "";
+          clearBtn.classList.add("hidden");
+          renderSearch();
+        }
+      });
+      const qEl = document.getElementById("q"),
+        clearBtn = document.getElementById("clearQ");
+      qEl.addEventListener("input", () => {
+        state.q = qEl.value;
+        state.page = 1;
+        clearBtn.classList.toggle("hidden", !qEl.value);
+        renderSearch();
+      });
+      clearBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        qEl.value = "";
+        state.q = "";
+        state.page = 1;
+        clearBtn.classList.add("hidden");
+        renderSearch();
+        qEl.focus();
+      });
+
+      updateBadge();
+      renderSearch();
+    </script>
+  </body>
+</html>
