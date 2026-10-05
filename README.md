@@ -2,6 +2,8 @@
 
 台北 8 個捷運生活圈、118 間咖啡廳的查詢與收藏。可安裝到手機主畫面，離線也能用。
 
+網站：https://yozuwork.github.io/BeggarCoffee/
+
 ## 指令
 
 ```bash
@@ -9,6 +11,7 @@ npm install       # 第一次
 npm run dev       # 開發（http://localhost:5173）
 npm run build     # 打包到 dist/
 npm run preview   # 用打包後的版本測試 PWA（http://localhost:4173）
+npm run deploy    # 打包並發布到 GitHub Pages（gh-pages 分支）
 npm run icons     # 重新產生 public/icons/ 的 App 圖示（需要 Python + Pillow）
 ```
 
