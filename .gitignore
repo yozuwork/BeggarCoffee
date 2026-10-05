@@ -1,0 +1,6 @@
+node_modules
+dist
+dev-dist
+
+# 根目錄多出來的字體副本（React 版用 src/assets/fonts/，舊版 HTML 用 fonts/）
+/jf-openhuninn-2.1.ttf

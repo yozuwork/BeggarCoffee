@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2e1f16">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="丐幫找咖啡">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="preload" as="image" href="splash/md-loading.webp" media="(orientation: portrait)">
+<link rel="preload" as="image" href="splash/pc-loading.webp" media="(orientation: landscape)">
+<title>咖啡收藏簿 · 台北</title>
+<style>
+/* 啟動畫面：直式螢幕用 md-loading、橫式螢幕用 pc-loading。
+   整張圖完整顯示（contain），多出來的邊用同一張圖模糊後填滿 */
+#splash{position:fixed;inset:0;z-index:100;overflow:hidden;background:#2a1c12;transition:opacity .5s ease,visibility .5s;cursor:pointer}
+#splash.hide{opacity:0;visibility:hidden}
+#splash .bg{position:absolute;inset:-40px;background:url("splash/md-loading.webp") center/cover;filter:blur(28px) brightness(.6)}
+#splash picture,#splash img{position:absolute;inset:0;width:100%;height:100%}
+#splash img{object-fit:contain}
+#splash .bar{position:absolute;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));width:120px;height:6px;margin-left:-60px;border-radius:3px;background:rgba(255,250,241,.25);overflow:hidden}
+#splash .bar i{position:absolute;top:0;bottom:0;width:40%;border-radius:3px;background:#fffaf1;animation:splash-load 1.1s ease-in-out infinite}
+@keyframes splash-load{from{left:-40%}to{left:100%}}
+@media (orientation:landscape){#splash .bg{background-image:url("splash/pc-loading.webp")}}
+@media (prefers-reduced-motion:reduce){#splash,#splash .bar i{transition:none;animation:none}}
+</style>
+  <script type="module" crossorigin src="./assets/index-Cqk5y5cP.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BOJe7CJE.css">
+<link rel="manifest" href="./manifest.webmanifest"></head>
+<body>
+<div id="splash" role="img" aria-label="丐幫找咖啡 載入中">
+  <div class="bg"></div>
+  <picture>
+    <source media="(orientation: landscape)" srcset="splash/pc-loading.webp">
+    <img src="splash/md-loading.webp" alt="" decoding="async" fetchpriority="high">
+  </picture>
+  <div class="bar"><i></i></div>
+</div>
+<div id="root"></div>
+</body>
+</html>
